@@ -2,16 +2,10 @@
 # -*- coding: utf-8 -*-
 """
 台股可轉債每日統計腳本（每日版）
-資料來源: cyclesinvest.com 可轉債查詢頁面背後的 POST API
-
-請求方式:
-  POST https://cyclesinvest.com/convertible_bond_search.php
-  Content-Type: application/x-www-form-urlencoded
-  Body: action=search_convertible&search_term=&category=all&page=N
 
 流程：
 1. 呼叫 API（有分頁則逐頁抓取）取得所有可轉債的當日資料
-2. 呼叫 TWSE / TPEx 官方開放資料 API，取得全市場股票的官方收盤價
+2. 呼叫 TWSE（上市，CSV）/ TPEx（上櫃，JSON）官方每日收盤行情，取得全市場官方收盤價
 3. 用官方收盤價「覆蓋」步驟1資料中的標的股價欄位（該欄位曾發現有明顯誤差，
    例如與官方股價相差 30~50% 的情況），並重新計算轉換價值與轉換溢價率
 4. 過濾掉無效資料（CB市價為 0 或缺漏）
@@ -20,10 +14,11 @@
 7. 儲存「當日明細快照」+ 更新「歷史彙總」
 """
 
+import csv
+import io
 import json
 import hashlib
 import sys
-import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -38,16 +33,14 @@ API_HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; CB-Stats-Bot/1.0)",
 }
 
-# 官方即時股價來源（用來覆蓋/校正 CB 資料源的標的股價欄位）
-# 注意：改用「基本市況報導網站」的即時報價 API，而非 STOCK_DAY_ALL 這類盤後報表
-# （盤後報表實測發現更新會落後超過一週，不適合用來校正每日資料）
-MIS_STOCK_INFO_URL = "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
-MIS_CHUNK_SIZE = 50  # 每批查詢的股票數量（每檔會產生 tse_/otc_ 兩個查詢項，避免單次網址過長）
-MIS_REQUEST_INTERVAL = 1.5  # 每批之間的間隔秒數，避免觸發 TWSE 的流量限制
+# 官方每日收盤行情來源（用來覆蓋/校正 CB 資料源的標的股價欄位）
+TWSE_STOCK_DAY_ALL_URL = "https://www.twse.com.tw/exchangeReport/STOCK_DAY_ALL"  # 上市，回傳CSV
+TPEX_DAILY_CLOSE_URL = "https://www.tpex.org.tw/web/stock/aftertrading/daily_close_quotes/stk_quote_result.php"  # 上櫃，回傳JSON
 
 OFFICIAL_API_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; CB-Stats-Bot/1.0)",
-    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "*/*",
 }
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -95,54 +88,85 @@ def fetch_raw_data() -> list[dict]:
     return all_records
 
 
-def fetch_official_stock_prices(stock_codes: list) -> dict:
+def _fetch_twse_prices() -> dict:
+    """抓取 TWSE 上市股票每日收盤行情（CSV格式），回傳 {代號: 收盤價}"""
+    price_map = {}
+    resp = requests.get(TWSE_STOCK_DAY_ALL_URL, headers=OFFICIAL_API_HEADERS, timeout=30)
+    resp.raise_for_status()
+    resp.encoding = "utf-8"
+    reader = csv.reader(io.StringIO(resp.text))
+    header = None
+    for row in reader:
+        if not row:
+            continue
+        if header is None:
+            header = row
+            continue
+        try:
+            idx_code = header.index("證券代號")
+            idx_close = header.index("收盤價")
+        except ValueError:
+            continue
+        if len(row) <= max(idx_code, idx_close):
+            continue
+        code = row[idx_code].strip()
+        close = to_float(row[idx_close])
+        if code and close is not None and close > 0:
+            price_map[code] = close
+    return price_map
+
+
+def _fetch_tpex_prices() -> dict:
+    """抓取 TPEx 上櫃股票每日收盤行情（JSON格式，aaData陣列），回傳 {代號: 收盤價}"""
+    price_map = {}
+    resp = requests.get(
+        TPEX_DAILY_CLOSE_URL,
+        params={"l": "zh-tw", "o": "data"},
+        headers=OFFICIAL_API_HEADERS,
+        timeout=30,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    rows = data.get("aaData", [])
+    for row in rows:
+        if len(row) < 3:
+            continue
+        code = str(row[0]).strip()
+        close = to_float(row[2])  # 依既有社群範例，第3欄(index 2)為收盤價
+        if code and close is not None and close > 0:
+            price_map[code] = close
+    return price_map
+
+
+def fetch_official_stock_prices() -> dict:
     """
-    呼叫 TWSE「基本市況報導網站」即時報價 API，取得指定股票代號的即時/當日成交價。
-    同時嘗試 tse_（上市）與 otc_（上櫃）前綴，不需事先知道每檔股票是上市還是上櫃。
+    分別呼叫 TWSE（上市）與 TPEx（上櫃）官方每日收盤行情，合併成
+    {股票代號: 官方收盤價} 的對照表，用來校正 CB 資料源可能不準確的標的股價。
 
-    價格優先序：當前成交價(z) > 昨收價(y)（若當下尚無成交，z 會是 "-"）。
-
-    任何一批查詢失敗都不會中斷整體流程，只記錄警告；查不到的代號會在 clean_data 中
+    任一來源呼叫失敗都不會中斷整體流程，只記錄警告；查不到的代號會在 clean_data 中
     fallback 使用 CB 資料源自帶的股價。
-
-    注意：此為 TWSE 未正式公開文件化的內部 API（廣泛被社群使用），沒有官方使用授權保證，
-    若未來網址或欄位有變動可能需要調整。
     """
     price_map = {}
-    unique_codes = sorted({c for c in stock_codes if c})
 
-    for i in range(0, len(unique_codes), MIS_CHUNK_SIZE):
-        chunk = unique_codes[i:i + MIS_CHUNK_SIZE]
-        ex_ch = "|".join(f"tse_{c}.tw|otc_{c}.tw" for c in chunk)
-        batch_no = i // MIS_CHUNK_SIZE + 1
+    try:
+        twse_prices = _fetch_twse_prices()
+        price_map.update(twse_prices)
+        print(f"[INFO] TWSE 上市官方收盤價取得 {len(twse_prices)} 檔")
+    except Exception as e:
+        print(f"[WARN] TWSE 官方股價抓取失敗，該部分將 fallback 用 CB 資料源自帶股價: {e}", file=sys.stderr)
 
-        try:
-            resp = requests.get(
-                MIS_STOCK_INFO_URL,
-                params={"ex_ch": ex_ch, "json": 1, "delay": 0},
-                headers=OFFICIAL_API_HEADERS,
-                timeout=20,
-            )
-            resp.raise_for_status()
-            data = resp.json()
+    try:
+        tpex_prices = _fetch_tpex_prices()
+        # 代號重複時（理論上不會發生）以 TWSE 優先，不覆蓋
+        for code, price in tpex_prices.items():
+            price_map.setdefault(code, price)
+        print(f"[INFO] TPEx 上櫃官方收盤價取得 {len(tpex_prices)} 檔")
+    except Exception as e:
+        print(f"[WARN] TPEx 官方股價抓取失敗，該部分將 fallback 用 CB 資料源自帶股價: {e}", file=sys.stderr)
 
-            for item in data.get("msgArray", []):
-                code = item.get("c")
-                z = to_float(item.get("z"))  # 當前盤中成交價
-                y = to_float(item.get("y"))  # 昨日收盤價（z 無成交時的 fallback）
-                price = z if z is not None and z > 0 else y
-                if code and price is not None and price > 0:
-                    price_map[code] = price
-
-        except Exception as e:
-            print(f"[WARN] 即時股價第 {batch_no} 批抓取失敗，該批股票將 fallback 用 CB 資料源自帶股價: {e}",
-                  file=sys.stderr)
-
-        time.sleep(MIS_REQUEST_INTERVAL)  # 避免觸發 TWSE 流量限制
-
-    print(f"[INFO] 即時股價取得 {len(price_map)} / {len(unique_codes)} 檔標的")
+    print(f"[INFO] 官方股價總計取得 {len(price_map)} 檔（上市+上櫃）")
     if not price_map:
-        print("[WARN] 官方即時股價全部抓取失敗，本次將完全使用 CB 資料源自帶的標的股價（未經校正）",
+        print("[WARN] 官方股價來源全部抓取失敗，本次將完全使用 CB 資料源自帶的標的股價（未經校正）",
               file=sys.stderr)
 
     return price_map
@@ -336,8 +360,8 @@ def main():
         sys.exit(0)
 
     print("[INFO] 開始抓取 TWSE 即時股價，用來校正標的股價...")
-    stock_codes = [item.get("stock_code") for item in raw if item.get("stock_code")]
-    official_prices = fetch_official_stock_prices(stock_codes)
+    print("[INFO] 開始抓取 TWSE / TPEx 官方每日收盤行情，用來校正標的股價...")
+    official_prices = fetch_official_stock_prices()
 
     df = clean_data(raw, official_prices)
     print(f"[INFO] 原始筆數: {len(raw)}，過濾後有效筆數: {len(df)}")
