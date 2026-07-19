@@ -8,15 +8,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <style>
   :root{
-    --bg: #10151c;
-    --bg-panel: #171e27;
-    --bg-panel-2: #1d2530;
-    --line: #2a3341;
-    --text: #e7e4d8;
-    --text-dim: #8b93a1;
-    --amber: #f0a93b;
-    --green: #3fae76;
-    --red: #d6644a;
+    --bg: #0a141c;
+    --bg-panel: #0f1f29;
+    --bg-panel-2: #142a37;
+    --line: #1f3a48;
+    --text: #e0f0ec;
+    --text-dim: #6f93a0;
+    --amber: #2dd4bf;
+    --green: #5fd97a;
+    --red: #ef6461;
     --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
     --sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
   }
@@ -268,7 +268,7 @@ function renderTrendChart(rows){
         {
           label: "平均CB價",
           data: rows.map(r => r.avg_cb_price),
-          borderColor: "#e7e4d8",
+          borderColor: "#e0f0ec",
           backgroundColor: "transparent",
           yAxisID: "yPrice",
           tension: 0.25,
@@ -278,7 +278,7 @@ function renderTrendChart(rows){
         {
           label: "平均轉換價值",
           data: rows.map(r => r.avg_conversion_value),
-          borderColor: "#f0a93b",
+          borderColor: "#2dd4bf",
           backgroundColor: "transparent",
           yAxisID: "yPrice",
           tension: 0.25,
@@ -288,7 +288,7 @@ function renderTrendChart(rows){
         {
           label: "平均轉換溢價率(%)",
           data: rows.map(r => r.avg_premium_rate),
-          borderColor: "#3fae76",
+          borderColor: "#5fd97a",
           backgroundColor: "transparent",
           yAxisID: "yPct",
           tension: 0.25,
@@ -304,29 +304,29 @@ function renderTrendChart(rows){
       interaction: { mode: "index", intersect: false },
       plugins: {
         legend: {
-          labels: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 11 } }
+          labels: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 11 } }
         },
         tooltip: {
-          backgroundColor: "#1d2530",
-          borderColor: "#2a3341",
+          backgroundColor: "#142a37",
+          borderColor: "#1f3a48",
           borderWidth: 1,
-          titleColor: "#e7e4d8",
-          bodyColor: "#e7e4d8",
+          titleColor: "#e0f0ec",
+          bodyColor: "#e0f0ec",
         }
       },
       scales: {
         x: {
-          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
-          grid: { color: "#1d2530" }
+          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
+          grid: { color: "#142a37" }
         },
         yPrice: {
           position: "left",
-          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 } },
-          grid: { color: "#1d2530" }
+          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 } },
+          grid: { color: "#142a37" }
         },
         yPct: {
           position: "right",
-          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 } },
+          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 } },
           grid: { drawOnChartArea: false }
         }
       }
@@ -354,7 +354,7 @@ function renderDistribution(d){
 }
 
 // 依區間由低到高給一組漸層色（低價區間偏冷色，高價區間偏暖色）
-const BIN_COLORS = ["#4a7fb5", "#3fae76", "#8fae3f", "#f0a93b", "#e07b3f", "#d6644a"];
+const BIN_COLORS = ["#38bdf8", "#2dd4bf", "#818cf8", "#c084fc", "#f472b6", "#fb7185"];
 
 function renderDistributionTrendChart(rows){
   const labels = rows.map(r => r.date);
@@ -381,25 +381,25 @@ function renderDistributionTrendChart(rows){
       interaction: { mode: "index", intersect: false },
       plugins: {
         legend: {
-          labels: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 11 } }
+          labels: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 11 } }
         },
         tooltip: {
-          backgroundColor: "#1d2530",
-          borderColor: "#2a3341",
+          backgroundColor: "#142a37",
+          borderColor: "#1f3a48",
           borderWidth: 1,
-          titleColor: "#e7e4d8",
-          bodyColor: "#e7e4d8",
+          titleColor: "#e0f0ec",
+          bodyColor: "#e0f0ec",
         }
       },
       scales: {
         x: {
-          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
-          grid: { color: "#1d2530" }
+          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
+          grid: { color: "#142a37" }
         },
         y: {
           beginAtZero: true,
-          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 } },
-          grid: { color: "#1d2530" }
+          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 } },
+          grid: { color: "#142a37" }
         }
       }
     }
