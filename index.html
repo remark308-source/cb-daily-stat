@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台股可轉債看盤 | CB Board</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+  :root{
+    --bg: #10151c;
+    --bg-panel: #171e27;
+    --bg-panel-2: #1d2530;
+    --line: #2a3341;
+    --text: #e7e4d8;
+    --text-dim: #8b93a1;
+    --amber: #f0a93b;
+    --green: #3fae76;
+    --red: #d6644a;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+    --sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; background:var(--bg); color:var(--text); font-family:var(--sans); }
+
+  @media (prefers-reduced-motion: no-preference){
+    .ticker-track{ animation: scroll-left 32s linear infinite; }
+  }
+  @keyframes scroll-left{
+    0%{ transform: translateX(0); }
+    100%{ transform: translateX(-50%); }
+  }
+
+  .ticker{
+    border-bottom:1px solid var(--line);
+    background: var(--bg-panel);
+    overflow:hidden;
+    white-space:nowrap;
+    padding:8px 0;
+  }
+  .ticker-track{
+    display:inline-block;
+    font-family:var(--mono);
+    font-size:13px;
+    letter-spacing:0.02em;
+  }
+  .ticker-track span{ color: var(--text-dim); margin: 0 22px; }
+  .ticker-track b{ color: var(--amber); font-weight:600; }
+
+  header.page{
+    max-width:1080px; margin:0 auto; padding:40px 24px 8px;
+  }
+  .eyebrow{
+    font-family:var(--mono); font-size:12px; letter-spacing:0.18em;
+    color: var(--text-dim); text-transform:uppercase; margin:0 0 10px;
+  }
+  h1{
+    font-family:var(--sans); font-weight:700; font-size:clamp(28px,4vw,42px);
+    margin:0 0 6px; letter-spacing:-0.01em;
+  }
+  .subtitle{ color:var(--text-dim); font-size:15px; margin:0 0 4px; }
+  .datestamp{
+    font-family:var(--mono); color:var(--amber); font-size:14px; margin-top:14px;
+  }
+
+  main{ max-width:1080px; margin:0 auto; padding:24px; }
+
+  .grid-cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:1px;
+    background: var(--line);
+    border:1px solid var(--line);
+    margin-bottom:32px;
+  }
+  .card{
+    background: var(--bg-panel);
+    padding:20px 18px;
+  }
+  .card .label{
+    font-size:12px; color:var(--text-dim); letter-spacing:0.04em;
+    margin-bottom:10px; min-height:2.4em; display:flex; align-items:flex-end;
+  }
+  .card .value{
+    font-family:var(--mono); font-size:28px; font-weight:600; color:var(--text);
+    line-height:1;
+  }
+  .card .value.amber{ color:var(--amber); }
+  .card .value.green{ color:var(--green); }
+  .card .unit{ font-size:14px; color:var(--text-dim); margin-left:4px; }
+
+  section.panel{
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    padding:24px;
+    margin-bottom:24px;
+  }
+  section.panel h2{
+    font-size:16px; margin:0 0 4px; font-weight:600;
+  }
+  section.panel .desc{
+    font-size:13px; color:var(--text-dim); margin:0 0 20px;
+  }
+  .chart-wrap{ position:relative; height:320px; }
+
+  .dist-bars{ display:flex; flex-direction:column; gap:10px; margin-top:8px; }
+  .dist-row{ display:grid; grid-template-columns: 90px 1fr 50px 60px; align-items:center; gap:12px; }
+  .dist-label{ font-family:var(--mono); font-size:13px; color:var(--text-dim); }
+  .dist-track{ background:var(--bg-panel-2); height:14px; position:relative; border-radius:2px; overflow:hidden; }
+  .dist-fill{ background:var(--amber); height:100%; border-radius:2px; }
+  .dist-count{ font-family:var(--mono); font-size:13px; text-align:right; }
+  .dist-pct{ font-family:var(--mono); font-size:12px; text-align:right; color:var(--text-dim); }
+
+  footer{
+    max-width:1080px; margin:0 auto; padding:20px 24px 60px;
+    color:var(--text-dim); font-size:12px; font-family:var(--mono);
+  }
+  footer a{ color:var(--amber); }
+
+  .empty-state{
+    text-align:center; padding:80px 24px; color:var(--text-dim);
+  }
+  .empty-state code{
+    background:var(--bg-panel-2); padding:2px 6px; border-radius:3px; color:var(--amber);
+  }
+</style>
+</head>
+<body>
+
+<div class="ticker">
+  <div class="ticker-track" id="tickerTrack">
+    <span>載入中...</span>
+  </div>
+</div>
+
+<header class="page">
+  <p class="eyebrow">Taiwan Convertible Bond Market</p>
+  <h1>可轉債看盤</h1>
+  <p class="subtitle">每日彙總全市場可轉債的價格分布、轉換價值與溢價率</p>
+  <p class="datestamp" id="dateStamp">—</p>
+</header>
+
+<main id="mainContent">
+  <div class="empty-state" id="loadingState">正在讀取資料...</div>
+</main>
+
+<footer>
+  資料來源：cyclesinvest.com 可轉債查詢（每日更新）／ <a href="data/history.csv">歷史資料 CSV</a>
+</footer>
+
+<script>
+const CSV_PATH = "data/history.csv";
+const PRICE_BINS = [
+  { label:"<95",     key:"lt95" },
+  { label:"95~100",  key:"95_100" },
+  { label:"100~105", key:"100_105" },
+  { label:"105~110", key:"105_110" },
+  { label:"110~120", key:"110_120" },
+  { label:">=120",   key:"ge120" },
+];
+
+function fmt(v, digits=2){
+  if (v === undefined || v === null || v === "" || isNaN(v)) return "—";
+  return Number(v).toFixed(digits);
+}
+
+async function loadData(){
+  try{
+    const res = await fetch(CSV_PATH);
+    if (!res.ok) throw new Error("找不到 " + CSV_PATH);
+    const text = await res.text();
+    const parsed = Papa.parse(text, { header:true, dynamicTyping:true, skipEmptyLines:true });
+    const rows = parsed.data.filter(r => r.date);
+    rows.sort((a,b) => a.date < b.date ? -1 : 1);
+    if (rows.length === 0) throw new Error("CSV 沒有資料列");
+    render(rows);
+  } catch(err){
+    renderEmpty(err.message);
+  }
+}
+
+function renderEmpty(msg){
+  document.getElementById("mainContent").innerHTML = `
+    <div class="empty-state">
+      <p>還沒有可以顯示的資料。</p>
+      <p style="margin-top:8px;font-size:13px;">
+        請確認 GitHub Actions 已經至少成功執行過一次，且本頁與 <code>data/history.csv</code>
+        部署在同一個網站下（例如 GitHub Pages）。
+      </p>
+      <p style="margin-top:8px;font-size:12px;color:#5a6270;">詳細訊息：${msg}</p>
+    </div>`;
+  document.getElementById("tickerTrack").innerHTML = "<span>尚無資料可顯示</span>";
+}
+
+function render(rows){
+  const latest = rows[rows.length - 1];
+  document.getElementById("dateStamp").textContent = "最新資料日期： " + latest.date;
+
+  renderTicker(latest);
+  renderCards(latest);
+  renderTrendChart(rows);
+  renderDistribution(latest);
+  renderDistributionTrendChart(rows);
+}
+
+function renderTicker(d){
+  const items = [
+    ["平均CB價", fmt(d.avg_cb_price)],
+    ["PR75最高價", fmt(d.pr75_price)],
+    ["PR90最高價", fmt(d.pr90_price)],
+    ["平均轉換價值", fmt(d.avg_conversion_value)],
+    ["平均溢價率", fmt(d.avg_premium_rate) + "%"],
+    ["樣本數", d.total_count],
+  ];
+  const line = items.map(([label, val]) => `<span>${label} <b>${val}</b></span>`).join("");
+  document.getElementById("tickerTrack").innerHTML = line + line; // 重複一次做無縫捲動
+}
+
+function renderCards(d){
+  const cards = [
+    { label:"納入統計標的數", value:d.total_count, unit:"檔" },
+    { label:"CB收盤價（平均）", value:fmt(d.avg_cb_price), unit:"元" },
+    { label:"PR75 最高價", value:fmt(d.pr75_price), unit:"元" },
+    { label:"PR90 最高價", value:fmt(d.pr90_price), unit:"元" },
+    { label:"平均轉換價值", value:fmt(d.avg_conversion_value), unit:"元", cls:"amber" },
+    { label:"平均轉換溢價率", value:fmt(d.avg_premium_rate), unit:"%", cls:"amber" },
+    { label:"轉換價值 ≥ 100 檔數", value:d.count_conversion_value_ge_100, unit:"檔" },
+    { label:"轉換價值 ≥ 120 檔數", value:d.count_conversion_value_ge_120, unit:"檔" },
+    { label:"溢價率 > 0% 檔數", value:d.count_premium_rate_gt_0, unit:"檔", cls:"green" },
+    { label:"溢價率 ≥ 50% 檔數", value:d.count_premium_rate_ge_50, unit:"檔" },
+    { label:"溢價率 ≥ 100% 檔數", value:d.count_premium_rate_ge_100, unit:"檔" },
+  ];
+  const html = cards.map(c => `
+    <div class="card">
+      <div class="label">${c.label}</div>
+      <div class="value ${c.cls||''}">${c.value}<span class="unit">${c.unit}</span></div>
+    </div>`).join("");
+
+  document.getElementById("mainContent").innerHTML = `
+    <div class="grid-cards">${html}</div>
+    <section class="panel">
+      <h2>歷史趨勢</h2>
+      <p class="desc">平均CB價、平均轉換價值、平均轉換溢價率　隨時間變化</p>
+      <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+    </section>
+    <section class="panel">
+      <h2>本期價格區間分布</h2>
+      <p class="desc">依 CB 收盤價分組的標的數量</p>
+      <div class="dist-bars" id="distBars"></div>
+    </section>
+    <section class="panel">
+      <h2>價格區間分布趨勢</h2>
+      <p class="desc">各價格區間標的數量　隨時間變化</p>
+      <div class="chart-wrap"><canvas id="distTrendChart"></canvas></div>
+    </section>
+  `;
+}
+
+function renderTrendChart(rows){
+  const labels = rows.map(r => r.date);
+  const ctx = document.getElementById("trendChart").getContext("2d");
+
+  new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "平均CB價",
+          data: rows.map(r => r.avg_cb_price),
+          borderColor: "#e7e4d8",
+          backgroundColor: "transparent",
+          yAxisID: "yPrice",
+          tension: 0.25,
+          pointRadius: 0,
+          borderWidth: 2,
+        },
+        {
+          label: "平均轉換價值",
+          data: rows.map(r => r.avg_conversion_value),
+          borderColor: "#f0a93b",
+          backgroundColor: "transparent",
+          yAxisID: "yPrice",
+          tension: 0.25,
+          pointRadius: 0,
+          borderWidth: 2,
+        },
+        {
+          label: "平均轉換溢價率(%)",
+          data: rows.map(r => r.avg_premium_rate),
+          borderColor: "#3fae76",
+          backgroundColor: "transparent",
+          yAxisID: "yPct",
+          tension: 0.25,
+          pointRadius: 0,
+          borderWidth: 2,
+          borderDash: [4,3],
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: {
+          labels: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 11 } }
+        },
+        tooltip: {
+          backgroundColor: "#1d2530",
+          borderColor: "#2a3341",
+          borderWidth: 1,
+          titleColor: "#e7e4d8",
+          bodyColor: "#e7e4d8",
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
+          grid: { color: "#1d2530" }
+        },
+        yPrice: {
+          position: "left",
+          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 } },
+          grid: { color: "#1d2530" }
+        },
+        yPct: {
+          position: "right",
+          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 } },
+          grid: { drawOnChartArea: false }
+        }
+      }
+    }
+  });
+}
+
+function renderDistribution(d){
+  const values = PRICE_BINS.map(b => Number(d["price_bin_" + b.key]) || 0);
+  const total = values.reduce((a, b) => a + b, 0) || 1; // 避免除以0
+  const max = Math.max(...values, 1);
+  const html = PRICE_BINS.map((b, i) => {
+    const v = values[i];
+    const barPct = (v / max * 100).toFixed(1);
+    const sharePct = (v / total * 100).toFixed(1);
+    return `
+      <div class="dist-row">
+        <div class="dist-label">${b.label}</div>
+        <div class="dist-track"><div class="dist-fill" style="width:${barPct}%"></div></div>
+        <div class="dist-count">${v}</div>
+        <div class="dist-pct">${sharePct}%</div>
+      </div>`;
+  }).join("");
+  document.getElementById("distBars").innerHTML = html;
+}
+
+// 依區間由低到高給一組漸層色（低價區間偏冷色，高價區間偏暖色）
+const BIN_COLORS = ["#4a7fb5", "#3fae76", "#8fae3f", "#f0a93b", "#e07b3f", "#d6644a"];
+
+function renderDistributionTrendChart(rows){
+  const labels = rows.map(r => r.date);
+  const ctx = document.getElementById("distTrendChart").getContext("2d");
+
+  const datasets = PRICE_BINS.map((b, i) => ({
+    label: b.label,
+    data: rows.map(r => Number(r["price_bin_" + b.key]) || 0),
+    borderColor: BIN_COLORS[i],
+    backgroundColor: "transparent",
+    fill: false,
+    tension: 0.25,
+    pointRadius: 2,
+    pointHoverRadius: 4,
+    borderWidth: 2,
+  }));
+
+  new Chart(ctx, {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: {
+          labels: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 11 } }
+        },
+        tooltip: {
+          backgroundColor: "#1d2530",
+          borderColor: "#2a3341",
+          borderWidth: 1,
+          titleColor: "#e7e4d8",
+          bodyColor: "#e7e4d8",
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
+          grid: { color: "#1d2530" }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: "#8b93a1", font: { family: "IBM Plex Mono", size: 10 } },
+          grid: { color: "#1d2530" }
+        }
+      }
+    }
+  });
+}
+
+loadData();
+</script>
+
+</body>
+</html>
