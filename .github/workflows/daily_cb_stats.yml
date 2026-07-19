@@ -1,0 +1,68 @@
+name: 每日可轉債統計與網頁部署
+
+on:
+  schedule:
+    # cron 使用 UTC 時間。台灣時間 20:00 = UTC 12:00（台灣為 UTC+8，無夏令時間）
+    # 資料來源（cyclesinvest.com）為每日更新，故排程為週一到週五執行
+    - cron: '0 20 * * 1-5'
+  workflow_dispatch: {}  # 允許手動觸發，方便測試
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 簽出 repo
+        uses: actions/checkout@v4
+
+      - name: 設定 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安裝相依套件
+        run: pip install -r requirements.txt
+
+      - name: 執行可轉債統計腳本
+        run: python scripts/fetch_cb_stats_daily.py
+
+      - name: 提交更新的資料檔案
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          git diff --staged --quiet && echo "沒有變動，略過提交" || \
+            git commit -m "自動更新可轉債統計資料 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+  deploy-pages:
+    needs: fetch-and-commit
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 簽出最新的 repo 內容
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: 設定 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 打包要部署的網頁內容（index.html + data/）
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
