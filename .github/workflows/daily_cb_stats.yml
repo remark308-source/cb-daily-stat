@@ -1,4 +1,4 @@
-name: 每日可轉債統計與網頁部署
+name: 每日可轉債統計
 
 on:
   schedule:
