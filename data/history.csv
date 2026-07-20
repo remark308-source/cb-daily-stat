@@ -1,2 +1,3 @@
 ﻿date,total_count,avg_cb_price,pr75_price,pr90_price,avg_conversion_value,avg_premium_rate,count_conversion_value_ge_100,count_conversion_value_ge_120,count_premium_rate_gt_0,count_premium_rate_ge_50,count_premium_rate_ge_100,price_bin_lt95,price_bin_95_100,price_bin_100_105,price_bin_105_110,price_bin_110_120,price_bin_ge120
 2026-07-19,376,134.64,133.0,202.0,94.43,51.73,113,55,348,136,49,21,54,85,28,46,142
+2026-07-20,376,134.64,133.0,202.0,99.31,48.26,123,71,353,130,49,21,54,85,28,46,142
