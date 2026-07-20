@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-台股可轉債每日統計腳本（每日版）
+
 
 流程：
 1. 呼叫 API（有分頁則逐頁抓取）取得所有可轉債的當日資料
@@ -48,6 +48,12 @@ DATA_DIR = BASE_DIR / "data"
 DETAIL_DIR = DATA_DIR / "details"
 HISTORY_CSV = DATA_DIR / "history.csv"
 LAST_HASH_FILE = DATA_DIR / ".last_hash"
+
+# 是否儲存每日明細 JSON（預設開啟）。
+# 測試穩定後，在 GitHub Actions 的 repo Settings → Variables 加入
+# SAVE_DETAIL_JSON = false 即可關閉，不需要修改程式碼。
+import os
+SAVE_DETAIL_JSON = os.environ.get("SAVE_DETAIL_JSON", "true").lower() != "false"
 
 # 價格區間分組（與週更版保持一致）
 PRICE_BINS = [0, 95, 100, 105, 110, 120, float("inf")]
@@ -298,16 +304,27 @@ def is_same_as_last_run(current_hash: str) -> bool:
     return last_hash == current_hash
 
 
-def save_outputs(raw: list[dict], stats: dict, trade_date: str, current_hash: str):
+def save_outputs(raw: list[dict], df: pd.DataFrame, stats: dict, trade_date: str, current_hash: str):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    DETAIL_DIR.mkdir(parents=True, exist_ok=True)
 
-    detail_path = DETAIL_DIR / f"{trade_date}.json"
-    detail_path.write_text(
-        json.dumps(raw, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
-    print(f"[OK] 已儲存明細快照: {detail_path}")
+    # 1. 存當日明細快照（可透過環境變數 SAVE_DETAIL_JSON=false 關閉）
+    if SAVE_DETAIL_JSON:
+        DETAIL_DIR.mkdir(parents=True, exist_ok=True)
+        detail_records = df.round(4).to_dict(orient="records")
+        detail_output = {
+            "date": trade_date,
+            "total_raw": len(raw),
+            "total_valid": len(df),
+            "records": detail_records,
+        }
+        detail_path = DETAIL_DIR / f"{trade_date}.json"
+        detail_path.write_text(
+            json.dumps(detail_output, ensure_ascii=False, indent=2),
+            encoding="utf-8"
+        )
+        print(f"[OK] 已儲存明細快照: {detail_path}")
+    else:
+        print("[INFO] SAVE_DETAIL_JSON=false，略過明細快照儲存")
 
     flat_stats = {
         "date": stats["date"],
