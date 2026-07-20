@@ -1,10 +1,10 @@
-name: 每日可轉債統計
+name: 每日可轉債統計與網頁部署
 
 on:
   schedule:
     # cron 使用 UTC 時間。台灣時間 20:00 = UTC 12:00（台灣為 UTC+8，無夏令時間）
     # 資料來源（cyclesinvest.com）為每日更新，故排程為週一到週五執行
-    - cron: '0 20 * * 1-5'
+    - cron: '0 12 * * 1-5'
   workflow_dispatch: {}  # 允許手動觸發，方便測試
 
 permissions:
@@ -32,6 +32,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 執行可轉債統計腳本
+        env:
+          SAVE_DETAIL_JSON: ${{ vars.SAVE_DETAIL_JSON }}
         run: python scripts/fetch_cb_stats_daily.py
 
       - name: 提交更新的資料檔案
