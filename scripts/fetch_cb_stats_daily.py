@@ -392,7 +392,7 @@ def main():
     print("[INFO] 統計結果:")
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
-    save_outputs(raw, stats, trade_date, current_hash)
+    save_outputs(raw, df, stats, trade_date, current_hash)
     print("=== 執行完成 ===")
 
 
