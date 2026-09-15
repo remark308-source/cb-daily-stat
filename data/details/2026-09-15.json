@@ -7,12 +7,12 @@
       "bond_code": "11011",
       "bond_name": "台泥一永",
       "stock_code": "1101",
-      "cb_price": 101.4,
+      "cb_price": 101.35,
       "conversion_price": 34.0,
-      "stock_price": 23.9,
+      "stock_price": 23.8,
       "stock_price_source": "official",
-      "conversion_value": 70.2941,
-      "premium_rate": 44.251
+      "conversion_value": 70.0,
+      "premium_rate": 44.7857
     },
     {
       "bond_code": "12561",
@@ -20,10 +20,10 @@
       "stock_code": "1256",
       "cb_price": 103.2,
       "conversion_price": 182.5,
-      "stock_price": 172.0,
+      "stock_price": 171.0,
       "stock_price_source": "official",
-      "conversion_value": 94.2466,
-      "premium_rate": 9.5
+      "conversion_value": 93.6986,
+      "premium_rate": 10.1404
     },
     {
       "bond_code": "13166",
@@ -31,10 +31,10 @@
       "stock_code": "1316",
       "cb_price": 102.8,
       "conversion_price": 17.8,
-      "stock_price": 10.7,
+      "stock_price": 10.4,
       "stock_price_source": "official",
-      "conversion_value": 60.1124,
-      "premium_rate": 71.0131
+      "conversion_value": 58.427,
+      "premium_rate": 75.9462
     },
     {
       "bond_code": "13382",
@@ -42,10 +42,10 @@
       "stock_code": "1338",
       "cb_price": 103.55,
       "conversion_price": 37.6,
-      "stock_price": 14.6,
+      "stock_price": 14.3,
       "stock_price_source": "official",
-      "conversion_value": 38.8298,
-      "premium_rate": 166.6767
+      "conversion_value": 38.0319,
+      "premium_rate": 172.2713
     },
     {
       "bond_code": "140201",
@@ -53,21 +53,21 @@
       "stock_code": "1402",
       "cb_price": 102.5,
       "conversion_price": 45.4,
-      "stock_price": 28.1,
+      "stock_price": 27.8,
       "stock_price_source": "official",
-      "conversion_value": 61.8943,
-      "premium_rate": 65.605
+      "conversion_value": 61.2335,
+      "premium_rate": 67.3921
     },
     {
       "bond_code": "140202",
       "bond_name": "遠東新E2永",
       "stock_code": "1402",
-      "cb_price": 99.85,
+      "cb_price": 99.8,
       "conversion_price": 33.7,
-      "stock_price": 28.1,
+      "stock_price": 27.8,
       "stock_price_source": "official",
-      "conversion_value": 83.3828,
-      "premium_rate": 19.7489
+      "conversion_value": 82.4926,
+      "premium_rate": 20.9806
     },
     {
       "bond_code": "14363",
@@ -75,21 +75,21 @@
       "stock_code": "1436",
       "cb_price": 100.0,
       "conversion_price": 114.3,
-      "stock_price": 36.45,
+      "stock_price": 36.1,
       "stock_price_source": "official",
-      "conversion_value": 31.8898,
-      "premium_rate": 213.5802
+      "conversion_value": 31.5836,
+      "premium_rate": 216.6205
     },
     {
       "bond_code": "14364",
       "bond_name": "華友聯四",
       "stock_code": "1436",
-      "cb_price": 98.3,
+      "cb_price": 98.5,
       "conversion_price": 87.9,
-      "stock_price": 36.45,
+      "stock_price": 36.1,
       "stock_price_source": "official",
-      "conversion_value": 41.4676,
-      "premium_rate": 137.0527
+      "conversion_value": 41.0694,
+      "premium_rate": 139.838
     },
     {
       "bond_code": "14381",
@@ -97,10 +97,10 @@
       "stock_code": "1438",
       "cb_price": 119.7,
       "conversion_price": 55.88,
-      "stock_price": 21.35,
+      "stock_price": 21.2,
       "stock_price_source": "official",
-      "conversion_value": 38.2069,
-      "premium_rate": 213.2944
+      "conversion_value": 37.9384,
+      "premium_rate": 215.5111
     },
     {
       "bond_code": "14664",
@@ -108,10 +108,10 @@
       "stock_code": "1466",
       "cb_price": 113.7,
       "conversion_price": 18.6,
-      "stock_price": 14.85,
+      "stock_price": 14.7,
       "stock_price_source": "official",
-      "conversion_value": 79.8387,
-      "premium_rate": 42.4121
+      "conversion_value": 79.0323,
+      "premium_rate": 43.8653
     },
     {
       "bond_code": "14722",
@@ -119,10 +119,10 @@
       "stock_code": "1472",
       "cb_price": 109.0,
       "conversion_price": 91.9,
-      "stock_price": 89.5,
-      "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 97.3885,
-      "premium_rate": 11.9229
+      "stock_price": 88.3,
+      "stock_price_source": "official",
+      "conversion_value": 96.0827,
+      "premium_rate": 13.4439
     },
     {
       "bond_code": "14723",
@@ -130,43 +130,43 @@
       "stock_code": "1472",
       "cb_price": 101.0,
       "conversion_price": 94.6,
-      "stock_price": 89.5,
-      "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 94.6089,
-      "premium_rate": 6.7553
+      "stock_price": 88.3,
+      "stock_price_source": "official",
+      "conversion_value": 93.3404,
+      "premium_rate": 8.2061
     },
     {
       "bond_code": "14743",
       "bond_name": "弘裕三",
       "stock_code": "1474",
-      "cb_price": 94.6,
+      "cb_price": 94.7,
       "conversion_price": 13.7,
-      "stock_price": 9.88,
+      "stock_price": 9.72,
       "stock_price_source": "official",
-      "conversion_value": 72.1168,
-      "premium_rate": 31.1761
+      "conversion_value": 70.9489,
+      "premium_rate": 33.4763
     },
     {
       "bond_code": "15142",
       "bond_name": "亞力二",
       "stock_code": "1514",
-      "cb_price": 119.0,
+      "cb_price": 118.0,
       "conversion_price": 105.1,
-      "stock_price": 100.0,
+      "stock_price": 99.6,
       "stock_price_source": "official",
-      "conversion_value": 95.1475,
-      "premium_rate": 25.069
+      "conversion_value": 94.7669,
+      "premium_rate": 24.5161
     },
     {
       "bond_code": "15261",
       "bond_name": "日馳一",
       "stock_code": "1526",
-      "cb_price": 99.7,
+      "cb_price": 99.65,
       "conversion_price": 37.29,
-      "stock_price": 15.0,
+      "stock_price": 14.7,
       "stock_price_source": "official",
-      "conversion_value": 40.2253,
-      "premium_rate": 147.8542
+      "conversion_value": 39.4208,
+      "premium_rate": 152.7856
     },
     {
       "bond_code": "15364",
@@ -174,21 +174,21 @@
       "stock_code": "1536",
       "cb_price": 96.5,
       "conversion_price": 71.47,
-      "stock_price": 46.85,
+      "stock_price": 46.0,
       "stock_price_source": "official",
-      "conversion_value": 65.552,
-      "premium_rate": 47.2114
+      "conversion_value": 64.3627,
+      "premium_rate": 49.9316
     },
     {
       "bond_code": "15602",
       "bond_name": "中砂二",
       "stock_code": "1560",
-      "cb_price": 138.35,
+      "cb_price": 136.5,
       "conversion_price": 708.3,
-      "stock_price": 753.0,
+      "stock_price": 735.0,
       "stock_price_source": "official",
-      "conversion_value": 106.3109,
-      "premium_rate": 30.1372
+      "conversion_value": 103.7696,
+      "premium_rate": 31.5414
     },
     {
       "bond_code": "15952",
@@ -196,21 +196,21 @@
       "stock_code": "1595",
       "cb_price": 205.0,
       "conversion_price": 37.7,
-      "stock_price": 61.8,
+      "stock_price": 61.7,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 163.9257,
-      "premium_rate": 25.0566
+      "conversion_value": 163.6605,
+      "premium_rate": 25.2593
     },
     {
       "bond_code": "15984",
       "bond_name": "岱宇四",
       "stock_code": "1598",
-      "cb_price": 98.3,
+      "cb_price": 98.1,
       "conversion_price": 31.9,
-      "stock_price": 20.4,
+      "stock_price": 20.1,
       "stock_price_source": "official",
-      "conversion_value": 63.9498,
-      "premium_rate": 53.7142
+      "conversion_value": 63.0094,
+      "premium_rate": 55.691
     },
     {
       "bond_code": "16095",
@@ -218,10 +218,10 @@
       "stock_code": "1609",
       "cb_price": 106.4,
       "conversion_price": 50.4,
-      "stock_price": 37.3,
+      "stock_price": 37.2,
       "stock_price_source": "official",
-      "conversion_value": 74.0079,
-      "premium_rate": 43.7684
+      "conversion_value": 73.8095,
+      "premium_rate": 44.1548
     },
     {
       "bond_code": "16231",
@@ -229,21 +229,21 @@
       "stock_code": "1623",
       "cb_price": 104.2,
       "conversion_price": 232.0,
-      "stock_price": 203.0,
+      "stock_price": 204.0,
       "stock_price_source": "official",
-      "conversion_value": 87.5,
-      "premium_rate": 19.0857
+      "conversion_value": 87.931,
+      "premium_rate": 18.502
     },
     {
       "bond_code": "17172",
       "bond_name": "長興二",
       "stock_code": "1717",
-      "cb_price": 126.55,
+      "cb_price": 125.15,
       "conversion_price": 75.7,
-      "stock_price": 69.2,
+      "stock_price": 68.1,
       "stock_price_source": "official",
-      "conversion_value": 91.4135,
-      "premium_rate": 38.4369
+      "conversion_value": 89.9604,
+      "premium_rate": 39.1168
     },
     {
       "bond_code": "17813",
@@ -262,10 +262,10 @@
       "stock_code": "1786",
       "cb_price": 100.75,
       "conversion_price": 116.5,
-      "stock_price": 43.55,
+      "stock_price": 43.05,
       "stock_price_source": "official",
-      "conversion_value": 37.382,
-      "premium_rate": 169.5149
+      "conversion_value": 36.9528,
+      "premium_rate": 172.6452
     },
     {
       "bond_code": "19094",
@@ -273,10 +273,10 @@
       "stock_code": "1909",
       "cb_price": 98.6,
       "conversion_price": 23.9,
-      "stock_price": 10.25,
+      "stock_price": 10.1,
       "stock_price_source": "official",
-      "conversion_value": 42.887,
-      "premium_rate": 129.9063
+      "conversion_value": 42.2594,
+      "premium_rate": 133.3208
     },
     {
       "bond_code": "20344",
@@ -284,21 +284,21 @@
       "stock_code": "2034",
       "cb_price": 106.9,
       "conversion_price": 25.2,
-      "stock_price": 20.3,
+      "stock_price": 20.45,
       "stock_price_source": "official",
-      "conversion_value": 80.5556,
-      "premium_rate": 32.7034
+      "conversion_value": 81.1508,
+      "premium_rate": 31.7301
     },
     {
       "bond_code": "21043",
       "bond_name": "國際中橡三",
       "stock_code": "2104",
-      "cb_price": 100.05,
+      "cb_price": 100.1,
       "conversion_price": 21.2,
       "stock_price": 10.3,
       "stock_price_source": "official",
       "conversion_value": 48.5849,
-      "premium_rate": 105.9282
+      "premium_rate": 106.0311
     },
     {
       "bond_code": "22013",
@@ -306,21 +306,21 @@
       "stock_code": "2201",
       "cb_price": 98.75,
       "conversion_price": 75.0,
-      "stock_price": 30.4,
+      "stock_price": 29.65,
       "stock_price_source": "official",
-      "conversion_value": 40.5333,
-      "premium_rate": 143.6266
+      "conversion_value": 39.5333,
+      "premium_rate": 149.7892
     },
     {
       "bond_code": "22211",
       "bond_name": "大甲一",
       "stock_code": "2221",
-      "cb_price": 121.0,
+      "cb_price": 122.0,
       "conversion_price": 82.16,
-      "stock_price": 89.9,
+      "stock_price": 96.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 109.4206,
-      "premium_rate": 10.5824
+      "conversion_value": 116.9669,
+      "premium_rate": 4.303
     },
     {
       "bond_code": "22283",
@@ -339,65 +339,65 @@
       "stock_code": "2233",
       "cb_price": 108.4,
       "conversion_price": 250.0,
-      "stock_price": 157.0,
+      "stock_price": 156.5,
       "stock_price_source": "official",
-      "conversion_value": 62.8,
-      "premium_rate": 72.6115
+      "conversion_value": 62.6,
+      "premium_rate": 73.1629
     },
     {
       "bond_code": "22363",
       "bond_name": "百達三KY",
       "stock_code": "2236",
-      "cb_price": 103.0,
+      "cb_price": 100.2,
       "conversion_price": 118.1,
-      "stock_price": 120.0,
+      "stock_price": 118.0,
       "stock_price_source": "official",
-      "conversion_value": 101.6088,
-      "premium_rate": 1.3692
+      "conversion_value": 99.9153,
+      "premium_rate": 0.2849
     },
     {
       "bond_code": "22471",
       "bond_name": "汎德永業一",
       "stock_code": "2247",
-      "cb_price": 102.3,
+      "cb_price": 102.25,
       "conversion_price": 273.1,
       "stock_price": 229.5,
       "stock_price_source": "official",
       "conversion_value": 84.0352,
-      "premium_rate": 21.7348
+      "premium_rate": 21.6753
     },
     {
       "bond_code": "22472",
       "bond_name": "汎德永業二",
       "stock_code": "2247",
-      "cb_price": 105.25,
+      "cb_price": 105.0,
       "conversion_price": 264.4,
       "stock_price": 229.5,
       "stock_price_source": "official",
       "conversion_value": 86.8003,
-      "premium_rate": 21.2553
+      "premium_rate": 20.9673
     },
     {
       "bond_code": "23031",
       "bond_name": "聯電一",
       "stock_code": "2303",
-      "cb_price": 130.25,
+      "cb_price": 128.0,
       "conversion_price": 146.0,
-      "stock_price": 142.5,
+      "stock_price": 138.5,
       "stock_price_source": "official",
-      "conversion_value": 97.6027,
-      "premium_rate": 33.4491
+      "conversion_value": 94.863,
+      "premium_rate": 34.9314
     },
     {
       "bond_code": "23032",
       "bond_name": "聯電二",
       "stock_code": "2303",
-      "cb_price": 142.5,
+      "cb_price": 142.4,
       "conversion_price": 130.7,
-      "stock_price": 142.5,
+      "stock_price": 138.5,
       "stock_price_source": "official",
-      "conversion_value": 109.0283,
-      "premium_rate": 30.7
+      "conversion_value": 105.9679,
+      "premium_rate": 34.3804
     },
     {
       "bond_code": "23291",
@@ -405,10 +405,10 @@
       "stock_code": "2329",
       "cb_price": 109.05,
       "conversion_price": 50.3,
-      "stock_price": 41.75,
+      "stock_price": 41.45,
       "stock_price_source": "official",
-      "conversion_value": 83.002,
-      "premium_rate": 31.3824
+      "conversion_value": 82.4056,
+      "premium_rate": 32.3333
     },
     {
       "bond_code": "23372",
@@ -416,21 +416,21 @@
       "stock_code": "2337",
       "cb_price": 545.0,
       "conversion_price": 23.0,
-      "stock_price": 116.0,
+      "stock_price": 114.5,
       "stock_price_source": "official",
-      "conversion_value": 504.3478,
-      "premium_rate": 8.0603
+      "conversion_value": 497.8261,
+      "premium_rate": 9.476
     },
     {
       "bond_code": "23511",
       "bond_name": "順德一",
       "stock_code": "2351",
-      "cb_price": 356.0,
+      "cb_price": 351.0,
       "conversion_price": 72.0,
-      "stock_price": 257.0,
+      "stock_price": 251.5,
       "stock_price_source": "official",
-      "conversion_value": 356.9444,
-      "premium_rate": -0.2646
+      "conversion_value": 349.3056,
+      "premium_rate": 0.4851
     },
     {
       "bond_code": "23742",
@@ -438,65 +438,65 @@
       "stock_code": "2374",
       "cb_price": 112.6,
       "conversion_price": 83.6,
-      "stock_price": 66.6,
+      "stock_price": 65.7,
       "stock_price_source": "official",
-      "conversion_value": 79.6651,
-      "premium_rate": 41.3417
+      "conversion_value": 78.5885,
+      "premium_rate": 43.2779
     },
     {
       "bond_code": "24023",
       "bond_name": "毅嘉三",
       "stock_code": "2402",
-      "cb_price": 126.95,
+      "cb_price": 125.0,
       "conversion_price": 53.3,
-      "stock_price": 54.4,
+      "stock_price": 53.4,
       "stock_price_source": "official",
-      "conversion_value": 102.0638,
-      "premium_rate": 24.383
+      "conversion_value": 100.1876,
+      "premium_rate": 24.7659
     },
     {
       "bond_code": "24271",
       "bond_name": "三商電一",
       "stock_code": "2427",
-      "cb_price": 100.5,
+      "cb_price": 104.95,
       "conversion_price": 25.6,
-      "stock_price": 22.8,
+      "stock_price": 24.35,
       "stock_price_source": "official",
-      "conversion_value": 89.0625,
-      "premium_rate": 12.8421
+      "conversion_value": 95.1172,
+      "premium_rate": 10.3376
     },
     {
       "bond_code": "24394",
       "bond_name": "美律四",
       "stock_code": "2439",
-      "cb_price": 102.6,
+      "cb_price": 102.0,
       "conversion_price": 122.4,
-      "stock_price": 77.3,
+      "stock_price": 76.6,
       "stock_price_source": "official",
-      "conversion_value": 63.1536,
-      "premium_rate": 62.4611
+      "conversion_value": 62.5817,
+      "premium_rate": 62.9869
     },
     {
       "bond_code": "24395",
       "bond_name": "美律五",
       "stock_code": "2439",
-      "cb_price": 108.95,
+      "cb_price": 107.95,
       "conversion_price": 118.9,
-      "stock_price": 77.3,
+      "stock_price": 76.6,
       "stock_price_source": "official",
-      "conversion_value": 65.0126,
-      "premium_rate": 67.5829
+      "conversion_value": 64.4239,
+      "premium_rate": 67.5621
     },
     {
       "bond_code": "24423",
       "bond_name": "新美齊三",
       "stock_code": "2442",
-      "cb_price": 98.95,
+      "cb_price": 98.7,
       "conversion_price": 21.0,
-      "stock_price": 14.6,
+      "stock_price": 14.45,
       "stock_price_source": "official",
-      "conversion_value": 69.5238,
-      "premium_rate": 42.3253
+      "conversion_value": 68.8095,
+      "premium_rate": 43.4394
     },
     {
       "bond_code": "24424",
@@ -504,43 +504,43 @@
       "stock_code": "2442",
       "cb_price": 98.95,
       "conversion_price": 21.2,
-      "stock_price": 14.6,
+      "stock_price": 14.45,
       "stock_price_source": "official",
-      "conversion_value": 68.8679,
-      "premium_rate": 43.6808
+      "conversion_value": 68.1604,
+      "premium_rate": 45.1723
     },
     {
       "bond_code": "24552",
       "bond_name": "全新二",
       "stock_code": "2455",
-      "cb_price": 332.0,
+      "cb_price": 326.0,
       "conversion_price": 161.8,
-      "stock_price": 535.0,
+      "stock_price": 520.0,
       "stock_price_source": "official",
-      "conversion_value": 330.6551,
-      "premium_rate": 0.4067
+      "conversion_value": 321.3844,
+      "premium_rate": 1.4362
     },
     {
       "bond_code": "24553",
       "bond_name": "全新三",
       "stock_code": "2455",
-      "cb_price": 353.0,
+      "cb_price": 346.0,
       "conversion_price": 152.5,
-      "stock_price": 535.0,
+      "stock_price": 520.0,
       "stock_price_source": "official",
-      "conversion_value": 350.8197,
-      "premium_rate": 0.6215
+      "conversion_value": 340.9836,
+      "premium_rate": 1.4712
     },
     {
       "bond_code": "24643",
       "bond_name": "盟立三",
       "stock_code": "2464",
-      "cb_price": 129.35,
+      "cb_price": 129.0,
       "conversion_price": 202.8,
-      "stock_price": 175.5,
+      "stock_price": 176.0,
       "stock_price_source": "official",
-      "conversion_value": 86.5385,
-      "premium_rate": 49.4711
+      "conversion_value": 86.785,
+      "premium_rate": 48.6432
     },
     {
       "bond_code": "24672",
@@ -548,21 +548,21 @@
       "stock_code": "2467",
       "cb_price": 233.0,
       "conversion_price": 248.5,
-      "stock_price": 537.0,
+      "stock_price": 516.0,
       "stock_price_source": "official",
-      "conversion_value": 216.0966,
-      "premium_rate": 7.8222
+      "conversion_value": 207.6459,
+      "premium_rate": 12.2103
     },
     {
       "bond_code": "24673",
       "bond_name": "志聖三",
       "stock_code": "2467",
-      "cb_price": 222.0,
+      "cb_price": 214.0,
       "conversion_price": 244.5,
-      "stock_price": 537.0,
+      "stock_price": 516.0,
       "stock_price_source": "official",
-      "conversion_value": 219.6319,
-      "premium_rate": 1.0782
+      "conversion_value": 211.0429,
+      "premium_rate": 1.4012
     },
     {
       "bond_code": "24762",
@@ -570,21 +570,21 @@
       "stock_code": "2476",
       "cb_price": 185.0,
       "conversion_price": 64.8,
-      "stock_price": 119.5,
+      "stock_price": 117.0,
       "stock_price_source": "official",
-      "conversion_value": 184.4136,
-      "premium_rate": 0.318
+      "conversion_value": 180.5556,
+      "premium_rate": 2.4615
     },
     {
       "bond_code": "24867",
       "bond_name": "一詮七",
       "stock_code": "2486",
-      "cb_price": 121.8,
+      "cb_price": 120.0,
       "conversion_price": 256.0,
-      "stock_price": 234.5,
+      "stock_price": 228.0,
       "stock_price_source": "official",
-      "conversion_value": 91.6016,
-      "premium_rate": 32.9672
+      "conversion_value": 89.0625,
+      "premium_rate": 34.7368
     },
     {
       "bond_code": "25283",
@@ -592,10 +592,10 @@
       "stock_code": "2528",
       "cb_price": 103.5,
       "conversion_price": 34.9,
-      "stock_price": 19.4,
+      "stock_price": 19.5,
       "stock_price_source": "official",
-      "conversion_value": 55.5874,
-      "premium_rate": 86.1933
+      "conversion_value": 55.8739,
+      "premium_rate": 85.2385
     },
     {
       "bond_code": "25284",
@@ -603,21 +603,21 @@
       "stock_code": "2528",
       "cb_price": 93.35,
       "conversion_price": 33.7,
-      "stock_price": 19.4,
+      "stock_price": 19.5,
       "stock_price_source": "official",
-      "conversion_value": 57.5668,
-      "premium_rate": 62.1595
+      "conversion_value": 57.8635,
+      "premium_rate": 61.3279
     },
     {
       "bond_code": "25303",
       "bond_name": "華建三",
       "stock_code": "2530",
-      "cb_price": 96.9,
+      "cb_price": 96.0,
       "conversion_price": 32.2,
-      "stock_price": 20.6,
+      "stock_price": 20.15,
       "stock_price_source": "official",
-      "conversion_value": 63.9752,
-      "premium_rate": 51.465
+      "conversion_value": 62.5776,
+      "premium_rate": 53.4094
     },
     {
       "bond_code": "25304",
@@ -625,10 +625,10 @@
       "stock_code": "2530",
       "cb_price": 96.0,
       "conversion_price": 30.2,
-      "stock_price": 20.6,
+      "stock_price": 20.15,
       "stock_price_source": "official",
-      "conversion_value": 68.2119,
-      "premium_rate": 40.7379
+      "conversion_value": 66.7219,
+      "premium_rate": 43.8809
     },
     {
       "bond_code": "25483",
@@ -636,21 +636,21 @@
       "stock_code": "2548",
       "cb_price": 101.9,
       "conversion_price": 138.0,
-      "stock_price": 92.9,
+      "stock_price": 91.6,
       "stock_price_source": "official",
-      "conversion_value": 67.3188,
-      "premium_rate": 51.3692
+      "conversion_value": 66.3768,
+      "premium_rate": 53.5175
     },
     {
       "bond_code": "25484",
       "bond_name": "華固四",
       "stock_code": "2548",
-      "cb_price": 101.0,
+      "cb_price": 100.9,
       "conversion_price": 136.3,
-      "stock_price": 92.9,
+      "stock_price": 91.6,
       "stock_price_source": "official",
-      "conversion_value": 68.1585,
-      "premium_rate": 48.1841
+      "conversion_value": 67.2047,
+      "premium_rate": 50.1383
     },
     {
       "bond_code": "26417",
@@ -658,10 +658,10 @@
       "stock_code": "2641",
       "cb_price": 100.4,
       "conversion_price": 21.59,
-      "stock_price": 17.45,
+      "stock_price": 17.25,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 80.8245,
-      "premium_rate": 24.2198
+      "conversion_value": 79.8981,
+      "premium_rate": 25.6601
     },
     {
       "bond_code": "26418",
@@ -669,10 +669,10 @@
       "stock_code": "2641",
       "cb_price": 103.5,
       "conversion_price": 18.82,
-      "stock_price": 17.45,
+      "stock_price": 17.25,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 92.7205,
-      "premium_rate": 11.6258
+      "conversion_value": 91.6578,
+      "premium_rate": 12.92
     },
     {
       "bond_code": "27271",
@@ -680,10 +680,10 @@
       "stock_code": "2727",
       "cb_price": 113.7,
       "conversion_price": 218.2,
-      "stock_price": 228.0,
+      "stock_price": 228.5,
       "stock_price_source": "official",
-      "conversion_value": 104.4913,
-      "premium_rate": 8.8129
+      "conversion_value": 104.7204,
+      "premium_rate": 8.5748
     },
     {
       "bond_code": "27323",
@@ -691,10 +691,10 @@
       "stock_code": "2732",
       "cb_price": 100.0,
       "conversion_price": 121.0,
-      "stock_price": 62.3,
+      "stock_price": 62.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 51.4876,
-      "premium_rate": 94.2215
+      "conversion_value": 51.5702,
+      "premium_rate": 93.9103
     },
     {
       "bond_code": "27324",
@@ -702,10 +702,10 @@
       "stock_code": "2732",
       "cb_price": 100.5,
       "conversion_price": 72.0,
-      "stock_price": 62.3,
+      "stock_price": 62.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 86.5278,
-      "premium_rate": 16.1477
+      "conversion_value": 86.6667,
+      "premium_rate": 15.9615
     },
     {
       "bond_code": "27431",
@@ -713,10 +713,10 @@
       "stock_code": "2743",
       "cb_price": 100.0,
       "conversion_price": 135.0,
-      "stock_price": 51.1,
+      "stock_price": 51.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 37.8519,
-      "premium_rate": 164.1879
+      "conversion_value": 37.7778,
+      "premium_rate": 164.7059
     },
     {
       "bond_code": "27451",
@@ -724,10 +724,10 @@
       "stock_code": "2745",
       "cb_price": 108.4,
       "conversion_price": 111.3,
-      "stock_price": 84.5,
+      "stock_price": 83.7,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 75.9209,
-      "premium_rate": 42.7801
+      "conversion_value": 75.2022,
+      "premium_rate": 44.1448
     },
     {
       "bond_code": "27531",
@@ -735,10 +735,10 @@
       "stock_code": "2753",
       "cb_price": 107.0,
       "conversion_price": 199.3,
-      "stock_price": 177.0,
+      "stock_price": 176.5,
       "stock_price_source": "official",
-      "conversion_value": 88.8108,
-      "premium_rate": 20.4808
+      "conversion_value": 88.56,
+      "premium_rate": 20.8221
     },
     {
       "bond_code": "27532",
@@ -746,21 +746,21 @@
       "stock_code": "2753",
       "cb_price": 108.0,
       "conversion_price": 197.3,
-      "stock_price": 177.0,
+      "stock_price": 176.5,
       "stock_price_source": "official",
-      "conversion_value": 89.7111,
-      "premium_rate": 20.3864
+      "conversion_value": 89.4577,
+      "premium_rate": 20.7275
     },
     {
       "bond_code": "27551",
       "bond_name": "揚秦一",
       "stock_code": "2755",
-      "cb_price": 143.5,
+      "cb_price": 143.0,
       "conversion_price": 67.9,
-      "stock_price": 98.5,
+      "stock_price": 98.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 145.0663,
-      "premium_rate": -1.0797
+      "conversion_value": 144.4772,
+      "premium_rate": -1.0224
     },
     {
       "bond_code": "27561",
@@ -768,10 +768,10 @@
       "stock_code": "2756",
       "cb_price": 100.9,
       "conversion_price": 87.7,
-      "stock_price": 61.2,
+      "stock_price": 62.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 69.7834,
-      "premium_rate": 44.5904
+      "conversion_value": 70.6956,
+      "premium_rate": 42.7247
     },
     {
       "bond_code": "29061",
@@ -779,43 +779,43 @@
       "stock_code": "2906",
       "cb_price": 99.65,
       "conversion_price": 16.0,
-      "stock_price": 13.8,
+      "stock_price": 13.6,
       "stock_price_source": "official",
-      "conversion_value": 86.25,
-      "premium_rate": 15.5362
+      "conversion_value": 85.0,
+      "premium_rate": 17.2353
     },
     {
       "bond_code": "30112",
       "bond_name": "今皓二",
       "stock_code": "3011",
-      "cb_price": 108.0,
+      "cb_price": 107.9,
       "conversion_price": 12.5,
-      "stock_price": 9.38,
+      "stock_price": 9.44,
       "stock_price_source": "official",
-      "conversion_value": 75.04,
-      "premium_rate": 43.9232
+      "conversion_value": 75.52,
+      "premium_rate": 42.8761
     },
     {
       "bond_code": "30134",
       "bond_name": "晟銘電四",
       "stock_code": "3013",
-      "cb_price": 112.95,
+      "cb_price": 114.95,
       "conversion_price": 143.2,
-      "stock_price": 82.8,
+      "stock_price": 81.5,
       "stock_price_source": "official",
-      "conversion_value": 57.8212,
-      "premium_rate": 95.3435
+      "conversion_value": 56.9134,
+      "premium_rate": 101.9735
     },
     {
       "bond_code": "30165",
       "bond_name": "嘉晶五",
       "stock_code": "3016",
-      "cb_price": 156.0,
+      "cb_price": 153.0,
       "conversion_price": 71.1,
-      "stock_price": 112.5,
+      "stock_price": 110.0,
       "stock_price_source": "official",
-      "conversion_value": 158.2278,
-      "premium_rate": -1.408
+      "conversion_value": 154.7117,
+      "premium_rate": -1.1064
     },
     {
       "bond_code": "30166",
@@ -823,21 +823,21 @@
       "stock_code": "3016",
       "cb_price": 128.0,
       "conversion_price": 105.0,
-      "stock_price": 112.5,
+      "stock_price": 110.0,
       "stock_price_source": "official",
-      "conversion_value": 107.1429,
-      "premium_rate": 19.4667
+      "conversion_value": 104.7619,
+      "premium_rate": 22.1818
     },
     {
       "bond_code": "30285",
       "bond_name": "增你強五",
       "stock_code": "3028",
-      "cb_price": 106.05,
+      "cb_price": 104.1,
       "conversion_price": 77.0,
-      "stock_price": 61.2,
+      "stock_price": 60.7,
       "stock_price_source": "official",
-      "conversion_value": 79.4805,
-      "premium_rate": 33.4289
+      "conversion_value": 78.8312,
+      "premium_rate": 32.0544
     },
     {
       "bond_code": "30321",
@@ -845,21 +845,21 @@
       "stock_code": "3032",
       "cb_price": 98.0,
       "conversion_price": 105.9,
-      "stock_price": 70.8,
+      "stock_price": 70.5,
       "stock_price_source": "official",
-      "conversion_value": 66.8555,
-      "premium_rate": 46.5847
+      "conversion_value": 66.5722,
+      "premium_rate": 47.2085
     },
     {
       "bond_code": "30322",
       "bond_name": "偉訓二",
       "stock_code": "3032",
-      "cb_price": 97.95,
+      "cb_price": 99.0,
       "conversion_price": 101.9,
-      "stock_price": 70.8,
+      "stock_price": 70.5,
       "stock_price_source": "official",
-      "conversion_value": 69.4799,
-      "premium_rate": 40.9761
+      "conversion_value": 69.1855,
+      "premium_rate": 43.0936
     },
     {
       "bond_code": "30336",
@@ -867,87 +867,87 @@
       "stock_code": "3033",
       "cb_price": 194.0,
       "conversion_price": 23.91,
-      "stock_price": 41.4,
+      "stock_price": 40.8,
       "stock_price_source": "official",
-      "conversion_value": 173.1493,
-      "premium_rate": 12.042
+      "conversion_value": 170.6399,
+      "premium_rate": 13.6897
     },
     {
       "bond_code": "30337",
       "bond_name": "威健七",
       "stock_code": "3033",
-      "cb_price": 127.95,
+      "cb_price": 125.95,
       "conversion_price": 33.15,
-      "stock_price": 41.4,
+      "stock_price": 40.8,
       "stock_price_source": "official",
-      "conversion_value": 124.8869,
-      "premium_rate": 2.4527
+      "conversion_value": 123.0769,
+      "premium_rate": 2.3344
     },
     {
       "bond_code": "30371",
       "bond_name": "欣興一",
       "stock_code": "3037",
-      "cb_price": 580.0,
+      "cb_price": 600.0,
       "conversion_price": 163.8,
-      "stock_price": 970.0,
+      "stock_price": 951.0,
       "stock_price_source": "official",
-      "conversion_value": 592.1856,
-      "premium_rate": -2.0577
+      "conversion_value": 580.5861,
+      "premium_rate": 3.3438
     },
     {
       "bond_code": "30401",
       "bond_name": "遠見一",
       "stock_code": "3040",
-      "cb_price": 96.0,
+      "cb_price": 97.0,
       "conversion_price": 47.2,
-      "stock_price": 33.8,
+      "stock_price": 34.3,
       "stock_price_source": "official",
-      "conversion_value": 71.6102,
-      "premium_rate": 34.0592
+      "conversion_value": 72.6695,
+      "premium_rate": 33.481
     },
     {
       "bond_code": "30454",
       "bond_name": "台灣大四",
       "stock_code": "3045",
-      "cb_price": 106.05,
+      "cb_price": 108.0,
       "conversion_price": 113.5,
-      "stock_price": 121.5,
+      "stock_price": 124.0,
       "stock_price_source": "official",
-      "conversion_value": 107.0485,
-      "premium_rate": -0.9327
+      "conversion_value": 109.2511,
+      "premium_rate": -1.1452
     },
     {
       "bond_code": "30455",
       "bond_name": "台灣大五",
       "stock_code": "3045",
-      "cb_price": 113.9,
+      "cb_price": 115.4,
       "conversion_price": 106.9,
-      "stock_price": 121.5,
+      "stock_price": 124.0,
       "stock_price_source": "official",
-      "conversion_value": 113.6576,
-      "premium_rate": 0.2133
+      "conversion_value": 115.9963,
+      "premium_rate": -0.514
     },
     {
       "bond_code": "30811",
       "bond_name": "聯亞一",
       "stock_code": "3081",
-      "cb_price": 209.0,
+      "cb_price": 206.0,
       "conversion_price": 1757.9,
-      "stock_price": 2745.0,
+      "stock_price": 2675.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 156.1522,
-      "premium_rate": 33.8438
+      "conversion_value": 152.1702,
+      "premium_rate": 35.3747
     },
     {
       "bond_code": "30812",
       "bond_name": "聯亞二",
       "stock_code": "3081",
-      "cb_price": 166.0,
+      "cb_price": 163.0,
       "conversion_price": 2168.8,
-      "stock_price": 2745.0,
+      "stock_price": 2675.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 126.5677,
-      "premium_rate": 31.1551
+      "conversion_value": 123.3401,
+      "premium_rate": 32.1549
     },
     {
       "bond_code": "30954",
@@ -955,10 +955,10 @@
       "stock_code": "3095",
       "cb_price": 120.0,
       "conversion_price": 41.1,
-      "stock_price": 35.55,
+      "stock_price": 35.15,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 86.4964,
-      "premium_rate": 38.7342
+      "conversion_value": 85.5231,
+      "premium_rate": 40.3129
     },
     {
       "bond_code": "31222",
@@ -966,98 +966,98 @@
       "stock_code": "3122",
       "cb_price": 106.9,
       "conversion_price": 42.3,
-      "stock_price": 24.0,
+      "stock_price": 23.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 56.7376,
-      "premium_rate": 88.4113
+      "conversion_value": 55.5556,
+      "premium_rate": 92.42
     },
     {
       "bond_code": "31311",
       "bond_name": "弘塑一",
       "stock_code": "3131",
-      "cb_price": 135.15,
+      "cb_price": 137.2,
       "conversion_price": 1711.8,
-      "stock_price": 2310.0,
+      "stock_price": 2320.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 134.9457,
-      "premium_rate": 0.1514
+      "conversion_value": 135.5299,
+      "premium_rate": 1.2323
     },
     {
       "bond_code": "31312",
       "bond_name": "弘塑二",
       "stock_code": "3131",
-      "cb_price": 144.25,
+      "cb_price": 148.55,
       "conversion_price": 1603.5,
-      "stock_price": 2310.0,
+      "stock_price": 2320.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 144.0599,
-      "premium_rate": 0.132
+      "conversion_value": 144.6835,
+      "premium_rate": 2.6724
     },
     {
       "bond_code": "31352",
       "bond_name": "凌航二",
       "stock_code": "3135",
-      "cb_price": 132.05,
+      "cb_price": 129.3,
       "conversion_price": 129.9,
-      "stock_price": 159.0,
+      "stock_price": 158.5,
       "stock_price_source": "official",
-      "conversion_value": 122.4018,
-      "premium_rate": 7.8824
+      "conversion_value": 122.0169,
+      "premium_rate": 5.9689
     },
     {
       "bond_code": "31413",
       "bond_name": "晶宏三",
       "stock_code": "3141",
-      "cb_price": 113.0,
+      "cb_price": 113.85,
       "conversion_price": 93.6,
-      "stock_price": 89.0,
+      "stock_price": 91.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 95.0855,
-      "premium_rate": 18.8404
+      "conversion_value": 97.8632,
+      "premium_rate": 16.3358
     },
     {
       "bond_code": "31414",
       "bond_name": "晶宏四",
       "stock_code": "3141",
-      "cb_price": 142.7,
+      "cb_price": 144.45,
       "conversion_price": 63.01,
-      "stock_price": 89.0,
+      "stock_price": 91.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 141.2474,
-      "premium_rate": 1.0284
+      "conversion_value": 145.3738,
+      "premium_rate": -0.6354
     },
     {
       "bond_code": "31494",
       "bond_name": "正達四",
       "stock_code": "3149",
-      "cb_price": 112.45,
+      "cb_price": 111.0,
       "conversion_price": 68.1,
-      "stock_price": 60.9,
+      "stock_price": 59.4,
       "stock_price_source": "official",
-      "conversion_value": 89.4273,
-      "premium_rate": 25.7446
+      "conversion_value": 87.2247,
+      "premium_rate": 27.2576
     },
     {
       "bond_code": "31672",
       "bond_name": "大量二",
       "stock_code": "3167",
-      "cb_price": 519.0,
+      "cb_price": 480.0,
       "conversion_price": 168.3,
-      "stock_price": 810.0,
+      "stock_price": 792.0,
       "stock_price_source": "official",
-      "conversion_value": 481.2834,
-      "premium_rate": 7.8367
+      "conversion_value": 470.5882,
+      "premium_rate": 2.0
     },
     {
       "bond_code": "31882",
       "bond_name": "鑫龍騰二",
       "stock_code": "3188",
-      "cb_price": 97.0,
+      "cb_price": 97.05,
       "conversion_price": 28.4,
-      "stock_price": 23.65,
+      "stock_price": 23.45,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 83.2746,
-      "premium_rate": 16.482
+      "conversion_value": 82.5704,
+      "premium_rate": 17.536
     },
     {
       "bond_code": "32071",
@@ -1065,21 +1065,21 @@
       "stock_code": "3207",
       "cb_price": 98.85,
       "conversion_price": 100.99,
-      "stock_price": 36.5,
+      "stock_price": 36.65,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 36.1422,
-      "premium_rate": 173.5031
+      "conversion_value": 36.2907,
+      "premium_rate": 172.3837
     },
     {
       "bond_code": "32191",
       "bond_name": "倚強科一",
       "stock_code": "3219",
-      "cb_price": 127.6,
+      "cb_price": 125.1,
       "conversion_price": 66.4,
-      "stock_price": 85.1,
+      "stock_price": 83.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 128.1627,
-      "premium_rate": -0.439
+      "conversion_value": 125.753,
+      "premium_rate": -0.5193
     },
     {
       "bond_code": "32571",
@@ -1087,21 +1087,21 @@
       "stock_code": "3257",
       "cb_price": 96.85,
       "conversion_price": 68.5,
-      "stock_price": 46.5,
+      "stock_price": 46.6,
       "stock_price_source": "official",
-      "conversion_value": 67.8832,
-      "premium_rate": 42.6715
+      "conversion_value": 68.0292,
+      "premium_rate": 42.3653
     },
     {
       "bond_code": "32723",
       "bond_name": "東碩三",
       "stock_code": "3272",
-      "cb_price": 86.55,
+      "cb_price": 86.7,
       "conversion_price": 34.2,
-      "stock_price": 13.95,
+      "stock_price": 14.05,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 40.7895,
-      "premium_rate": 112.1871
+      "conversion_value": 41.0819,
+      "premium_rate": 111.042
     },
     {
       "bond_code": "32843",
@@ -1109,21 +1109,21 @@
       "stock_code": "3284",
       "cb_price": 98.35,
       "conversion_price": 23.41,
-      "stock_price": 19.3,
+      "stock_price": 19.25,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 82.4434,
-      "premium_rate": 19.294
+      "conversion_value": 82.2298,
+      "premium_rate": 19.6038
     },
     {
       "bond_code": "32943",
       "bond_name": "英濟三",
       "stock_code": "3294",
-      "cb_price": 118.0,
+      "cb_price": 115.0,
       "conversion_price": 41.8,
-      "stock_price": 29.0,
+      "stock_price": 28.65,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 69.378,
-      "premium_rate": 70.0828
+      "conversion_value": 68.5407,
+      "premium_rate": 67.7836
     },
     {
       "bond_code": "33035",
@@ -1131,10 +1131,10 @@
       "stock_code": "3303",
       "cb_price": 103.0,
       "conversion_price": 55.7,
-      "stock_price": 47.9,
+      "stock_price": 48.35,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 85.9964,
-      "premium_rate": 19.7724
+      "conversion_value": 86.8043,
+      "premium_rate": 18.6577
     },
     {
       "bond_code": "33055",
@@ -1142,21 +1142,21 @@
       "stock_code": "3305",
       "cb_price": 143.3,
       "conversion_price": 72.0,
-      "stock_price": 100.0,
+      "stock_price": 98.1,
       "stock_price_source": "official",
-      "conversion_value": 138.8889,
-      "premium_rate": 3.176
+      "conversion_value": 136.25,
+      "premium_rate": 5.1743
     },
     {
       "bond_code": "33121",
       "bond_name": "弘憶股一",
       "stock_code": "3312",
-      "cb_price": 97.0,
+      "cb_price": 96.0,
       "conversion_price": 71.4,
-      "stock_price": 47.4,
+      "stock_price": 46.7,
       "stock_price_source": "official",
-      "conversion_value": 66.3866,
-      "premium_rate": 46.1139
+      "conversion_value": 65.4062,
+      "premium_rate": 46.7752
     },
     {
       "bond_code": "33133",
@@ -1164,10 +1164,10 @@
       "stock_code": "3313",
       "cb_price": 108.0,
       "conversion_price": 15.7,
-      "stock_price": 10.7,
+      "stock_price": 10.65,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 68.1529,
-      "premium_rate": 58.4673
+      "conversion_value": 67.8344,
+      "premium_rate": 59.2113
     },
     {
       "bond_code": "33225",
@@ -1175,43 +1175,43 @@
       "stock_code": "3322",
       "cb_price": 100.2,
       "conversion_price": 22.97,
-      "stock_price": 10.65,
+      "stock_price": 10.55,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 46.3648,
-      "premium_rate": 116.1121
+      "conversion_value": 45.9295,
+      "premium_rate": 118.1606
     },
     {
       "bond_code": "33245",
       "bond_name": "雙鴻五",
       "stock_code": "3324",
-      "cb_price": 183.0,
+      "cb_price": 173.0,
       "conversion_price": 726.1,
-      "stock_price": 1305.0,
+      "stock_price": 1260.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 179.7273,
-      "premium_rate": 1.8209
+      "conversion_value": 173.5298,
+      "premium_rate": -0.3053
     },
     {
       "bond_code": "33246",
       "bond_name": "雙鴻六",
       "stock_code": "3324",
-      "cb_price": 142.0,
+      "cb_price": 139.0,
       "conversion_price": 1111.3,
-      "stock_price": 1305.0,
+      "stock_price": 1260.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 117.43,
-      "premium_rate": 20.9231
+      "conversion_value": 113.3807,
+      "premium_rate": 22.5958
     },
     {
       "bond_code": "33247",
       "bond_name": "雙鴻七",
       "stock_code": "3324",
-      "cb_price": 141.5,
+      "cb_price": 138.85,
       "conversion_price": 1092.5,
-      "stock_price": 1305.0,
+      "stock_price": 1260.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 119.4508,
-      "premium_rate": 18.4588
+      "conversion_value": 115.3318,
+      "premium_rate": 20.3918
     },
     {
       "bond_code": "33466",
@@ -1219,43 +1219,43 @@
       "stock_code": "3346",
       "cb_price": 99.0,
       "conversion_price": 36.5,
-      "stock_price": 19.4,
+      "stock_price": 19.3,
       "stock_price_source": "official",
-      "conversion_value": 53.1507,
-      "premium_rate": 86.2629
+      "conversion_value": 52.8767,
+      "premium_rate": 87.228
     },
     {
       "bond_code": "33571",
       "bond_name": "臺慶科一",
       "stock_code": "3357",
-      "cb_price": 192.0,
+      "cb_price": 190.0,
       "conversion_price": 105.6,
       "stock_price": 199.0,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 188.447,
-      "premium_rate": 1.8854
+      "premium_rate": 0.8241
     },
     {
       "bond_code": "33621",
       "bond_name": "先進光一",
       "stock_code": "3362",
-      "cb_price": 116.65,
+      "cb_price": 116.85,
       "conversion_price": 251.0,
-      "stock_price": 168.5,
+      "stock_price": 168.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 67.1315,
-      "premium_rate": 73.7635
+      "conversion_value": 66.9323,
+      "premium_rate": 74.5795
     },
     {
       "bond_code": "33763",
       "bond_name": "新日興三",
       "stock_code": "3376",
-      "cb_price": 127.3,
+      "cb_price": 120.1,
       "conversion_price": 191.1,
-      "stock_price": 181.0,
+      "stock_price": 173.0,
       "stock_price_source": "official",
-      "conversion_value": 94.7148,
-      "premium_rate": 34.4035
+      "conversion_value": 90.5285,
+      "premium_rate": 32.6654
     },
     {
       "bond_code": "33902",
@@ -1263,10 +1263,10 @@
       "stock_code": "3390",
       "cb_price": 116.95,
       "conversion_price": 24.2,
-      "stock_price": 21.5,
+      "stock_price": 21.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 88.843,
-      "premium_rate": 31.6367
+      "conversion_value": 88.4298,
+      "premium_rate": 32.2519
     },
     {
       "bond_code": "34163",
@@ -1274,21 +1274,21 @@
       "stock_code": "3416",
       "cb_price": 141.9,
       "conversion_price": 117.5,
-      "stock_price": 161.0,
+      "stock_price": 160.0,
       "stock_price_source": "official",
-      "conversion_value": 137.0213,
-      "premium_rate": 3.5606
+      "conversion_value": 136.1702,
+      "premium_rate": 4.2078
     },
     {
       "bond_code": "34793",
       "bond_name": "安勤三",
       "stock_code": "3479",
-      "cb_price": 125.55,
+      "cb_price": 125.05,
       "conversion_price": 121.5,
-      "stock_price": 129.0,
+      "stock_price": 129.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 106.1728,
-      "premium_rate": 18.2506
+      "conversion_value": 106.5844,
+      "premium_rate": 17.3249
     },
     {
       "bond_code": "34834",
@@ -1296,10 +1296,10 @@
       "stock_code": "3483",
       "cb_price": 102.0,
       "conversion_price": 131.1,
-      "stock_price": 76.0,
+      "stock_price": 73.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 57.971,
-      "premium_rate": 75.95
+      "conversion_value": 55.9878,
+      "premium_rate": 82.1826
     },
     {
       "bond_code": "34843",
@@ -1307,32 +1307,32 @@
       "stock_code": "3484",
       "cb_price": 122.9,
       "conversion_price": 42.2,
-      "stock_price": 43.75,
+      "stock_price": 43.8,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 103.673,
-      "premium_rate": 18.5458
+      "conversion_value": 103.7915,
+      "premium_rate": 18.4105
     },
     {
       "bond_code": "34913",
       "bond_name": "昇達科三",
       "stock_code": "3491",
-      "cb_price": 132.5,
+      "cb_price": 132.4,
       "conversion_price": 1788.0,
-      "stock_price": 1390.0,
+      "stock_price": 1355.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 77.7405,
-      "premium_rate": 70.4388
+      "conversion_value": 75.783,
+      "premium_rate": 74.7094
     },
     {
       "bond_code": "35122",
       "bond_name": "皇龍二",
       "stock_code": "3512",
-      "cb_price": 103.15,
+      "cb_price": 103.05,
       "conversion_price": 20.5,
-      "stock_price": 19.2,
+      "stock_price": 19.05,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 93.6585,
-      "premium_rate": 10.1341
+      "conversion_value": 92.9268,
+      "premium_rate": 10.8937
     },
     {
       "bond_code": "35161",
@@ -1340,10 +1340,10 @@
       "stock_code": "3516",
       "cb_price": 115.05,
       "conversion_price": 25.62,
-      "stock_price": 25.4,
+      "stock_price": 25.35,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 99.1413,
-      "premium_rate": 16.0465
+      "conversion_value": 98.9461,
+      "premium_rate": 16.2754
     },
     {
       "bond_code": "35181",
@@ -1351,10 +1351,10 @@
       "stock_code": "3518",
       "cb_price": 111.0,
       "conversion_price": 35.0,
-      "stock_price": 30.0,
+      "stock_price": 29.7,
       "stock_price_source": "official",
-      "conversion_value": 85.7143,
-      "premium_rate": 29.5
+      "conversion_value": 84.8571,
+      "premium_rate": 30.8081
     },
     {
       "bond_code": "35221",
@@ -1362,10 +1362,10 @@
       "stock_code": "3522",
       "cb_price": 101.0,
       "conversion_price": 18.2,
-      "stock_price": 12.85,
+      "stock_price": 12.95,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 70.6044,
-      "premium_rate": 43.0506
+      "conversion_value": 71.1538,
+      "premium_rate": 41.9459
     },
     {
       "bond_code": "35265",
@@ -1373,43 +1373,43 @@
       "stock_code": "3526",
       "cb_price": 183.0,
       "conversion_price": 151.9,
-      "stock_price": 266.0,
+      "stock_price": 262.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 175.1152,
-      "premium_rate": 4.5026
+      "conversion_value": 172.4819,
+      "premium_rate": 6.0981
     },
     {
       "bond_code": "35266",
       "bond_name": "凡甲六",
       "stock_code": "3526",
-      "cb_price": 141.0,
+      "cb_price": 141.85,
       "conversion_price": 188.7,
-      "stock_price": 266.0,
+      "stock_price": 262.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 140.9645,
-      "premium_rate": 0.0252
+      "conversion_value": 138.8447,
+      "premium_rate": 2.1645
     },
     {
       "bond_code": "35267",
       "bond_name": "凡甲七",
       "stock_code": "3526",
-      "cb_price": 125.6,
+      "cb_price": 125.0,
       "conversion_price": 254.0,
-      "stock_price": 266.0,
+      "stock_price": 262.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 104.7244,
-      "premium_rate": 19.9338
+      "conversion_value": 103.1496,
+      "premium_rate": 21.1832
     },
     {
       "bond_code": "35431",
       "bond_name": "州巧一",
       "stock_code": "3543",
-      "cb_price": 119.8,
+      "cb_price": 120.5,
       "conversion_price": 44.2,
-      "stock_price": 42.05,
+      "stock_price": 42.0,
       "stock_price_source": "official",
-      "conversion_value": 95.1357,
-      "premium_rate": 25.9253
+      "conversion_value": 95.0226,
+      "premium_rate": 26.8119
     },
     {
       "bond_code": "35482",
@@ -1417,10 +1417,10 @@
       "stock_code": "3548",
       "cb_price": 99.85,
       "conversion_price": 186.0,
-      "stock_price": 78.0,
+      "stock_price": 76.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 41.9355,
-      "premium_rate": 138.1038
+      "conversion_value": 41.0753,
+      "premium_rate": 143.0903
     },
     {
       "bond_code": "35483",
@@ -1428,10 +1428,10 @@
       "stock_code": "3548",
       "cb_price": 100.0,
       "conversion_price": 162.8,
-      "stock_price": 78.0,
+      "stock_price": 76.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 47.9115,
-      "premium_rate": 108.7179
+      "conversion_value": 46.9287,
+      "premium_rate": 113.089
     },
     {
       "bond_code": "35513",
@@ -1439,10 +1439,10 @@
       "stock_code": "3551",
       "cb_price": 125.0,
       "conversion_price": 173.0,
-      "stock_price": 169.5,
+      "stock_price": 168.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 97.9769,
-      "premium_rate": 27.5811
+      "conversion_value": 97.3988,
+      "premium_rate": 28.3383
     },
     {
       "bond_code": "35642",
@@ -1450,32 +1450,32 @@
       "stock_code": "3564",
       "cb_price": 96.3,
       "conversion_price": 83.4,
-      "stock_price": 47.6,
+      "stock_price": 46.7,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 57.0743,
-      "premium_rate": 68.7273
+      "conversion_value": 55.9952,
+      "premium_rate": 71.979
     },
     {
       "bond_code": "35833",
       "bond_name": "辛耘三",
       "stock_code": "3583",
-      "cb_price": 130.3,
+      "cb_price": 128.2,
       "conversion_price": 844.0,
-      "stock_price": 683.0,
+      "stock_price": 664.0,
       "stock_price_source": "official",
-      "conversion_value": 80.9242,
-      "premium_rate": 61.0149
+      "conversion_value": 78.673,
+      "premium_rate": 62.953
     },
     {
       "bond_code": "35872",
       "bond_name": "閎康二",
       "stock_code": "3587",
-      "cb_price": 137.9,
+      "cb_price": 138.0,
       "conversion_price": 196.7,
-      "stock_price": 233.0,
+      "stock_price": 229.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 118.4545,
-      "premium_rate": 16.416
+      "conversion_value": 116.4209,
+      "premium_rate": 18.5354
     },
     {
       "bond_code": "35914",
@@ -1492,67 +1492,67 @@
       "bond_code": "36053",
       "bond_name": "宏致三",
       "stock_code": "3605",
-      "cb_price": 250.0,
+      "cb_price": 262.0,
       "conversion_price": 48.9,
-      "stock_price": 126.5,
+      "stock_price": 127.5,
       "stock_price_source": "official",
-      "conversion_value": 258.6912,
-      "premium_rate": -3.3597
+      "conversion_value": 260.7362,
+      "premium_rate": 0.4847
     },
     {
       "bond_code": "36054",
       "bond_name": "宏致四",
       "stock_code": "3605",
-      "cb_price": 148.45,
+      "cb_price": 148.9,
       "conversion_price": 86.5,
-      "stock_price": 126.5,
+      "stock_price": 127.5,
       "stock_price_source": "official",
-      "conversion_value": 146.2428,
-      "premium_rate": 1.5093
+      "conversion_value": 147.3988,
+      "premium_rate": 1.0184
     },
     {
       "bond_code": "36173",
       "bond_name": "碩天三",
       "stock_code": "3617",
-      "cb_price": 118.65,
+      "cb_price": 118.6,
       "conversion_price": 274.3,
-      "stock_price": 241.0,
+      "stock_price": 236.0,
       "stock_price_source": "official",
-      "conversion_value": 87.86,
-      "premium_rate": 35.0444
+      "conversion_value": 86.0372,
+      "premium_rate": 37.8474
     },
     {
       "bond_code": "36804",
       "bond_name": "家登四",
       "stock_code": "3680",
-      "cb_price": 146.1,
+      "cb_price": 139.0,
       "conversion_price": 351.0,
-      "stock_price": 507.0,
+      "stock_price": 488.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 144.4444,
-      "premium_rate": 1.1462
+      "conversion_value": 139.1738,
+      "premium_rate": -0.1249
     },
     {
       "bond_code": "36805",
       "bond_name": "家登五",
       "stock_code": "3680",
-      "cb_price": 134.2,
+      "cb_price": 133.0,
       "conversion_price": 484.7,
-      "stock_price": 507.0,
+      "stock_price": 488.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 104.6008,
-      "premium_rate": 28.2973
+      "conversion_value": 100.784,
+      "premium_rate": 31.9654
     },
     {
       "bond_code": "36806",
       "bond_name": "家登六",
       "stock_code": "3680",
-      "cb_price": 138.0,
+      "cb_price": 137.3,
       "conversion_price": 478.9,
-      "stock_price": 507.0,
+      "stock_price": 488.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 105.8676,
-      "premium_rate": 30.3515
+      "conversion_value": 102.0046,
+      "premium_rate": 34.6018
     },
     {
       "bond_code": "36841",
@@ -1571,10 +1571,10 @@
       "stock_code": "3687",
       "cb_price": 95.75,
       "conversion_price": 73.9,
-      "stock_price": 61.6,
+      "stock_price": 61.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 83.3559,
-      "premium_rate": 14.8689
+      "conversion_value": 83.0853,
+      "premium_rate": 15.2431
     },
     {
       "bond_code": "36873",
@@ -1582,10 +1582,10 @@
       "stock_code": "3687",
       "cb_price": 97.35,
       "conversion_price": 77.9,
-      "stock_price": 61.6,
+      "stock_price": 61.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 79.0757,
-      "premium_rate": 23.1098
+      "conversion_value": 78.819,
+      "premium_rate": 23.5108
     },
     {
       "bond_code": "36894",
@@ -1593,21 +1593,21 @@
       "stock_code": "3689",
       "cb_price": 195.0,
       "conversion_price": 59.7,
-      "stock_price": 106.5,
+      "stock_price": 105.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 178.392,
-      "premium_rate": 9.3099
+      "conversion_value": 176.7169,
+      "premium_rate": 10.346
     },
     {
       "bond_code": "36913",
       "bond_name": "碩禾三",
       "stock_code": "3691",
-      "cb_price": 107.75,
+      "cb_price": 107.45,
       "conversion_price": 118.0,
-      "stock_price": 95.2,
+      "stock_price": 94.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 80.678,
-      "premium_rate": 33.5557
+      "conversion_value": 79.7458,
+      "premium_rate": 34.7407
     },
     {
       "bond_code": "37075",
@@ -1615,10 +1615,10 @@
       "stock_code": "3707",
       "cb_price": 157.0,
       "conversion_price": 40.1,
-      "stock_price": 60.2,
+      "stock_price": 58.9,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 150.1247,
-      "premium_rate": 4.5797
+      "conversion_value": 146.8828,
+      "premium_rate": 6.8879
     },
     {
       "bond_code": "37083",
@@ -1626,10 +1626,10 @@
       "stock_code": "3708",
       "cb_price": 117.6,
       "conversion_price": 81.7,
-      "stock_price": 96.9,
+      "stock_price": 95.4,
       "stock_price_source": "official",
-      "conversion_value": 118.6047,
-      "premium_rate": -0.8471
+      "conversion_value": 116.7687,
+      "premium_rate": 0.7119
     },
     {
       "bond_code": "37084",
@@ -1637,10 +1637,10 @@
       "stock_code": "3708",
       "cb_price": 122.8,
       "conversion_price": 78.5,
-      "stock_price": 96.9,
+      "stock_price": 95.4,
       "stock_price_source": "official",
-      "conversion_value": 123.4395,
-      "premium_rate": -0.5181
+      "conversion_value": 121.5287,
+      "premium_rate": 1.0461
     },
     {
       "bond_code": "37151",
@@ -1648,10 +1648,10 @@
       "stock_code": "3715",
       "cb_price": 115.15,
       "conversion_price": 140.0,
-      "stock_price": 120.5,
+      "stock_price": 119.5,
       "stock_price_source": "official",
-      "conversion_value": 86.0714,
-      "premium_rate": 33.7842
+      "conversion_value": 85.3571,
+      "premium_rate": 34.9038
     },
     {
       "bond_code": "37152",
@@ -1659,21 +1659,21 @@
       "stock_code": "3715",
       "cb_price": 107.5,
       "conversion_price": 159.0,
-      "stock_price": 120.5,
+      "stock_price": 119.5,
       "stock_price_source": "official",
-      "conversion_value": 75.7862,
-      "premium_rate": 41.8465
+      "conversion_value": 75.1572,
+      "premium_rate": 43.0335
     },
     {
       "bond_code": "37171",
       "bond_name": "聯嘉投控一",
       "stock_code": "3717",
-      "cb_price": 129.3,
+      "cb_price": 128.55,
       "conversion_price": 17.5,
-      "stock_price": 21.1,
+      "stock_price": 21.0,
       "stock_price_source": "official",
-      "conversion_value": 120.5714,
-      "premium_rate": 7.2393
+      "conversion_value": 120.0,
+      "premium_rate": 7.125
     },
     {
       "bond_code": "41135",
@@ -1681,10 +1681,10 @@
       "stock_code": "4113",
       "cb_price": 101.45,
       "conversion_price": 26.3,
-      "stock_price": 15.85,
+      "stock_price": 15.9,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 60.2662,
-      "premium_rate": 68.3366
+      "conversion_value": 60.4563,
+      "premium_rate": 67.8072
     },
     {
       "bond_code": "41136",
@@ -1692,54 +1692,54 @@
       "stock_code": "4113",
       "cb_price": 87.5,
       "conversion_price": 20.45,
-      "stock_price": 15.85,
+      "stock_price": 15.9,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 77.5061,
-      "premium_rate": 12.8943
+      "conversion_value": 77.7506,
+      "premium_rate": 12.5393
     },
     {
       "bond_code": "41236",
       "bond_name": "晟德六",
       "stock_code": "4123",
-      "cb_price": 107.0,
+      "cb_price": 106.95,
       "conversion_price": 35.1,
       "stock_price": 30.35,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 86.4672,
-      "premium_rate": 23.7463
+      "premium_rate": 23.6885
     },
     {
       "bond_code": "41237",
       "bond_name": "晟德七",
       "stock_code": "4123",
-      "cb_price": 94.7,
+      "cb_price": 94.85,
       "conversion_price": 35.7,
       "stock_price": 30.35,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 85.014,
-      "premium_rate": 11.3934
+      "premium_rate": 11.5699
     },
     {
       "bond_code": "41238",
       "bond_name": "晟德八",
       "stock_code": "4123",
-      "cb_price": 88.75,
+      "cb_price": 89.15,
       "conversion_price": 39.1,
       "stock_price": 30.35,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 77.6215,
-      "premium_rate": 14.3369
+      "premium_rate": 14.8522
     },
     {
       "bond_code": "41239",
       "bond_name": "晟德九",
       "stock_code": "4123",
-      "cb_price": 89.4,
+      "cb_price": 89.25,
       "conversion_price": 38.2,
       "stock_price": 30.35,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 79.4503,
-      "premium_rate": 12.5232
+      "premium_rate": 12.3344
     },
     {
       "bond_code": "41295",
@@ -1747,10 +1747,10 @@
       "stock_code": "4129",
       "cb_price": 106.5,
       "conversion_price": 100.5,
-      "stock_price": 82.4,
+      "stock_price": 82.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 81.99,
-      "premium_rate": 29.8938
+      "conversion_value": 82.1891,
+      "premium_rate": 29.5793
     },
     {
       "bond_code": "41372",
@@ -1758,32 +1758,32 @@
       "stock_code": "4137",
       "cb_price": 100.3,
       "conversion_price": 128.3,
-      "stock_price": 76.3,
+      "stock_price": 76.6,
       "stock_price_source": "official",
-      "conversion_value": 59.47,
-      "premium_rate": 68.6565
+      "conversion_value": 59.7038,
+      "premium_rate": 67.996
     },
     {
       "bond_code": "41645",
       "bond_name": "承業醫五",
       "stock_code": "4164",
-      "cb_price": 99.45,
+      "cb_price": 97.95,
       "conversion_price": 45.3,
-      "stock_price": 25.35,
+      "stock_price": 25.4,
       "stock_price_source": "official",
-      "conversion_value": 55.9603,
-      "premium_rate": 77.7154
+      "conversion_value": 56.0706,
+      "premium_rate": 74.6904
     },
     {
       "bond_code": "41684",
       "bond_name": "醣聯四",
       "stock_code": "4168",
-      "cb_price": 109.6,
+      "cb_price": 108.9,
       "conversion_price": 23.91,
-      "stock_price": 21.8,
+      "stock_price": 21.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 91.1752,
-      "premium_rate": 20.2081
+      "conversion_value": 90.3388,
+      "premium_rate": 20.5463
     },
     {
       "bond_code": "41903",
@@ -1791,10 +1791,10 @@
       "stock_code": "4190",
       "cb_price": 96.7,
       "conversion_price": 53.1,
-      "stock_price": 25.9,
+      "stock_price": 25.4,
       "stock_price_source": "official",
-      "conversion_value": 48.7759,
-      "premium_rate": 98.2537
+      "conversion_value": 47.8343,
+      "premium_rate": 102.1563
     },
     {
       "bond_code": "41904",
@@ -1802,21 +1802,21 @@
       "stock_code": "4190",
       "cb_price": 102.85,
       "conversion_price": 26.1,
-      "stock_price": 25.9,
+      "stock_price": 25.4,
       "stock_price_source": "official",
-      "conversion_value": 99.2337,
-      "premium_rate": 3.6442
+      "conversion_value": 97.318,
+      "premium_rate": 5.6844
     },
     {
       "bond_code": "44163",
       "bond_name": "三圓三",
       "stock_code": "4416",
-      "cb_price": 101.95,
+      "cb_price": 101.9,
       "conversion_price": 65.7,
-      "stock_price": 10.75,
+      "stock_price": 11.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 16.3623,
-      "premium_rate": 523.0805
+      "conversion_value": 17.656,
+      "premium_rate": 477.1405
     },
     {
       "bond_code": "44383",
@@ -1824,10 +1824,10 @@
       "stock_code": "4438",
       "cb_price": 104.65,
       "conversion_price": 75.0,
-      "stock_price": 56.7,
+      "stock_price": 56.3,
       "stock_price_source": "official",
-      "conversion_value": 75.6,
-      "premium_rate": 38.4259
+      "conversion_value": 75.0667,
+      "premium_rate": 39.4094
     },
     {
       "bond_code": "44391",
@@ -1835,10 +1835,10 @@
       "stock_code": "4439",
       "cb_price": 102.75,
       "conversion_price": 96.3,
-      "stock_price": 93.9,
+      "stock_price": 93.5,
       "stock_price_source": "official",
-      "conversion_value": 97.5078,
-      "premium_rate": 5.3762
+      "conversion_value": 97.0924,
+      "premium_rate": 5.827
     },
     {
       "bond_code": "44421",
@@ -1846,10 +1846,10 @@
       "stock_code": "4442",
       "cb_price": 123.0,
       "conversion_price": 45.3,
-      "stock_price": 55.6,
+      "stock_price": 56.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 122.7373,
-      "premium_rate": 0.214
+      "conversion_value": 124.9448,
+      "premium_rate": -1.5565
     },
     {
       "bond_code": "45031",
@@ -1857,10 +1857,10 @@
       "stock_code": "4503",
       "cb_price": 99.0,
       "conversion_price": 46.0,
-      "stock_price": 22.5,
+      "stock_price": 22.2,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 48.913,
-      "premium_rate": 102.4
+      "conversion_value": 48.2609,
+      "premium_rate": 105.1351
     },
     {
       "bond_code": "45102",
@@ -1868,10 +1868,10 @@
       "stock_code": "4510",
       "cb_price": 99.0,
       "conversion_price": 48.41,
-      "stock_price": 41.8,
+      "stock_price": 41.85,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 86.3458,
-      "premium_rate": 14.6553
+      "conversion_value": 86.4491,
+      "premium_rate": 14.5183
     },
     {
       "bond_code": "45421",
@@ -1879,10 +1879,10 @@
       "stock_code": "4542",
       "cb_price": 325.0,
       "conversion_price": 85.5,
-      "stock_price": 252.0,
+      "stock_price": 250.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 294.7368,
-      "premium_rate": 10.2679
+      "conversion_value": 292.3977,
+      "premium_rate": 11.15
     },
     {
       "bond_code": "45491",
@@ -1890,32 +1890,32 @@
       "stock_code": "4549",
       "cb_price": 105.0,
       "conversion_price": 149.8,
-      "stock_price": 95.4,
+      "stock_price": 94.2,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 63.6849,
-      "premium_rate": 64.8742
+      "conversion_value": 62.8838,
+      "premium_rate": 66.9745
     },
     {
       "bond_code": "45554",
       "bond_name": "氣立四",
       "stock_code": "4555",
-      "cb_price": 113.2,
+      "cb_price": 113.95,
       "conversion_price": 43.4,
-      "stock_price": 41.9,
+      "stock_price": 41.65,
       "stock_price_source": "official",
-      "conversion_value": 96.5438,
-      "premium_rate": 17.2525
+      "conversion_value": 95.9677,
+      "premium_rate": 18.7378
     },
     {
       "bond_code": "45581",
       "bond_name": "寶緯一",
       "stock_code": "4558",
-      "cb_price": 100.55,
+      "cb_price": 100.7,
       "conversion_price": 29.8,
       "stock_price": 17.25,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 57.8859,
-      "premium_rate": 73.7038
+      "premium_rate": 73.9629
     },
     {
       "bond_code": "45641",
@@ -1923,10 +1923,10 @@
       "stock_code": "4564",
       "cb_price": 101.0,
       "conversion_price": 26.4,
-      "stock_price": 15.65,
+      "stock_price": 15.8,
       "stock_price_source": "official",
-      "conversion_value": 59.2803,
-      "premium_rate": 70.377
+      "conversion_value": 59.8485,
+      "premium_rate": 68.7595
     },
     {
       "bond_code": "45663",
@@ -1934,10 +1934,10 @@
       "stock_code": "4566",
       "cb_price": 140.0,
       "conversion_price": 49.0,
-      "stock_price": 62.9,
+      "stock_price": 62.8,
       "stock_price_source": "official",
-      "conversion_value": 128.3673,
-      "premium_rate": 9.062
+      "conversion_value": 128.1633,
+      "premium_rate": 9.2357
     },
     {
       "bond_code": "45691",
@@ -1945,10 +1945,10 @@
       "stock_code": "4569",
       "cb_price": 107.0,
       "conversion_price": 212.0,
-      "stock_price": 152.5,
+      "stock_price": 154.0,
       "stock_price_source": "official",
-      "conversion_value": 71.934,
-      "premium_rate": 48.7475
+      "conversion_value": 72.6415,
+      "premium_rate": 47.2987
     },
     {
       "bond_code": "45721",
@@ -1956,10 +1956,10 @@
       "stock_code": "4572",
       "cb_price": 99.05,
       "conversion_price": 155.0,
-      "stock_price": 142.5,
+      "stock_price": 141.5,
       "stock_price_source": "official",
-      "conversion_value": 91.9355,
-      "premium_rate": 7.7386
+      "conversion_value": 91.2903,
+      "premium_rate": 8.5
     },
     {
       "bond_code": "45811",
@@ -1976,34 +1976,34 @@
       "bond_code": "47148",
       "bond_name": "永捷八",
       "stock_code": "4714",
-      "cb_price": 110.0,
+      "cb_price": 109.95,
       "conversion_price": 16.1,
-      "stock_price": 11.4,
+      "stock_price": 11.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 70.8075,
-      "premium_rate": 55.3509
+      "conversion_value": 68.9441,
+      "premium_rate": 59.477
     },
     {
       "bond_code": "47223",
       "bond_name": "國精化三",
       "stock_code": "4722",
-      "cb_price": 138.5,
+      "cb_price": 140.0,
       "conversion_price": 140.5,
-      "stock_price": 190.0,
+      "stock_price": 185.0,
       "stock_price_source": "official",
-      "conversion_value": 135.2313,
-      "premium_rate": 2.4171
+      "conversion_value": 131.6726,
+      "premium_rate": 6.3243
     },
     {
       "bond_code": "47224",
       "bond_name": "國精化四",
       "stock_code": "4722",
-      "cb_price": 105.5,
+      "cb_price": 106.4,
       "conversion_price": 264.2,
-      "stock_price": 190.0,
+      "stock_price": 185.0,
       "stock_price_source": "official",
-      "conversion_value": 71.9152,
-      "premium_rate": 46.7005
+      "conversion_value": 70.0227,
+      "premium_rate": 51.9507
     },
     {
       "bond_code": "47393",
@@ -2011,21 +2011,21 @@
       "stock_code": "4739",
       "cb_price": 100.1,
       "conversion_price": 96.9,
-      "stock_price": 77.3,
+      "stock_price": 76.0,
       "stock_price_source": "official",
-      "conversion_value": 79.773,
-      "premium_rate": 25.4811
+      "conversion_value": 78.4314,
+      "premium_rate": 27.6275
     },
     {
       "bond_code": "47394",
       "bond_name": "康普四",
       "stock_code": "4739",
-      "cb_price": 131.5,
+      "cb_price": 124.5,
       "conversion_price": 69.9,
-      "stock_price": 77.3,
+      "stock_price": 76.0,
       "stock_price_source": "official",
-      "conversion_value": 110.5866,
-      "premium_rate": 18.9114
+      "conversion_value": 108.7268,
+      "premium_rate": 14.5072
     },
     {
       "bond_code": "47491",
@@ -2033,43 +2033,43 @@
       "stock_code": "4749",
       "cb_price": 132.0,
       "conversion_price": 1072.0,
-      "stock_price": 709.0,
+      "stock_price": 705.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 66.1381,
-      "premium_rate": 99.5825
+      "conversion_value": 65.7649,
+      "premium_rate": 100.7149
     },
     {
       "bond_code": "47602",
       "bond_name": "勤凱二",
       "stock_code": "4760",
-      "cb_price": 123.0,
+      "cb_price": 122.0,
       "conversion_price": 303.5,
-      "stock_price": 255.5,
+      "stock_price": 257.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 84.1845,
-      "premium_rate": 46.1076
+      "conversion_value": 84.6787,
+      "premium_rate": 44.0739
     },
     {
       "bond_code": "47642",
       "bond_name": "雙鍵二",
       "stock_code": "4764",
-      "cb_price": 119.0,
+      "cb_price": 120.0,
       "conversion_price": 336.8,
-      "stock_price": 207.5,
+      "stock_price": 202.5,
       "stock_price_source": "official",
-      "conversion_value": 61.6093,
-      "premium_rate": 93.1528
+      "conversion_value": 60.1247,
+      "premium_rate": 99.5852
     },
     {
       "bond_code": "47721",
       "bond_name": "台特化一",
       "stock_code": "4772",
-      "cb_price": 115.0,
+      "cb_price": 113.7,
       "conversion_price": 320.3,
       "stock_price": 238.5,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 74.4614,
-      "premium_rate": 54.4423
+      "premium_rate": 52.6965
     },
     {
       "bond_code": "49231",
@@ -2077,10 +2077,10 @@
       "stock_code": "4923",
       "cb_price": 151.0,
       "conversion_price": 34.66,
-      "stock_price": 52.1,
+      "stock_price": 53.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 150.3174,
-      "premium_rate": 0.4541
+      "conversion_value": 153.2025,
+      "premium_rate": -1.4377
     },
     {
       "bond_code": "49311",
@@ -2088,32 +2088,32 @@
       "stock_code": "4931",
       "cb_price": 177.0,
       "conversion_price": 173.3,
-      "stock_price": 231.5,
+      "stock_price": 225.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 133.5834,
-      "premium_rate": 32.5015
+      "conversion_value": 129.8327,
+      "premium_rate": 36.3293
     },
     {
       "bond_code": "49675",
       "bond_name": "十銓五",
       "stock_code": "4967",
-      "cb_price": 132.0,
+      "cb_price": 129.0,
       "conversion_price": 205.0,
-      "stock_price": 273.5,
+      "stock_price": 266.0,
       "stock_price_source": "official",
-      "conversion_value": 133.4146,
-      "premium_rate": -1.0603
+      "conversion_value": 129.7561,
+      "premium_rate": -0.5827
     },
     {
       "bond_code": "49731",
       "bond_name": "廣穎電通一",
       "stock_code": "4973",
-      "cb_price": 101.7,
+      "cb_price": 102.4,
       "conversion_price": 169.6,
-      "stock_price": 138.0,
+      "stock_price": 135.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 81.3679,
-      "premium_rate": 24.9878
+      "conversion_value": 79.5991,
+      "premium_rate": 28.6447
     },
     {
       "bond_code": "49793",
@@ -2121,10 +2121,10 @@
       "stock_code": "4979",
       "cb_price": 340.0,
       "conversion_price": 175.7,
-      "stock_price": 547.0,
+      "stock_price": 509.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 311.3261,
-      "premium_rate": 9.2102
+      "conversion_value": 289.6983,
+      "premium_rate": 17.3635
     },
     {
       "bond_code": "49794",
@@ -2132,10 +2132,10 @@
       "stock_code": "4979",
       "cb_price": 301.0,
       "conversion_price": 203.3,
-      "stock_price": 547.0,
+      "stock_price": 509.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 269.0605,
-      "premium_rate": 11.8707
+      "conversion_value": 250.3689,
+      "premium_rate": 20.2226
     },
     {
       "bond_code": "52011",
@@ -2143,21 +2143,21 @@
       "stock_code": "5201",
       "cb_price": 109.0,
       "conversion_price": 37.8,
-      "stock_price": 29.95,
+      "stock_price": 30.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 79.2328,
-      "premium_rate": 37.5693
+      "conversion_value": 80.6878,
+      "premium_rate": 35.0885
     },
     {
       "bond_code": "52091",
       "bond_name": "新鼎一",
       "stock_code": "5209",
-      "cb_price": 123.5,
+      "cb_price": 121.35,
       "conversion_price": 139.8,
-      "stock_price": 173.0,
+      "stock_price": 172.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 123.7482,
-      "premium_rate": -0.2006
+      "conversion_value": 123.3906,
+      "premium_rate": -1.6537
     },
     {
       "bond_code": "52121",
@@ -2165,10 +2165,10 @@
       "stock_code": "5212",
       "cb_price": 101.65,
       "conversion_price": 57.73,
-      "stock_price": 46.8,
+      "stock_price": 46.35,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 81.067,
-      "premium_rate": 25.3901
+      "conversion_value": 80.2875,
+      "premium_rate": 26.6074
     },
     {
       "bond_code": "52441",
@@ -2176,32 +2176,32 @@
       "stock_code": "5244",
       "cb_price": 95.8,
       "conversion_price": 44.0,
-      "stock_price": 33.5,
+      "stock_price": 33.95,
       "stock_price_source": "official",
-      "conversion_value": 76.1364,
-      "premium_rate": 25.8269
+      "conversion_value": 77.1591,
+      "premium_rate": 24.1591
     },
     {
       "bond_code": "52452",
       "bond_name": "智晶二",
       "stock_code": "5245",
-      "cb_price": 96.65,
+      "cb_price": 96.8,
       "conversion_price": 35.0,
-      "stock_price": 21.75,
+      "stock_price": 21.05,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 62.1429,
-      "premium_rate": 55.5287
+      "conversion_value": 60.1429,
+      "premium_rate": 60.9501
     },
     {
       "bond_code": "52635",
       "bond_name": "智崴五",
       "stock_code": "5263",
-      "cb_price": 117.85,
+      "cb_price": 108.05,
       "conversion_price": 109.8,
-      "stock_price": 91.2,
+      "stock_price": 89.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 83.0601,
-      "premium_rate": 41.8852
+      "conversion_value": 81.4208,
+      "premium_rate": 32.7057
     },
     {
       "bond_code": "52844",
@@ -2209,10 +2209,10 @@
       "stock_code": "5284",
       "cb_price": 111.0,
       "conversion_price": 345.3,
-      "stock_price": 297.0,
+      "stock_price": 290.0,
       "stock_price_source": "official",
-      "conversion_value": 86.0122,
-      "premium_rate": 29.0515
+      "conversion_value": 83.9849,
+      "premium_rate": 32.1666
     },
     {
       "bond_code": "52845",
@@ -2220,32 +2220,32 @@
       "stock_code": "5284",
       "cb_price": 122.5,
       "conversion_price": 315.5,
-      "stock_price": 297.0,
+      "stock_price": 290.0,
       "stock_price_source": "official",
-      "conversion_value": 94.1363,
-      "premium_rate": 30.1305
+      "conversion_value": 91.9176,
+      "premium_rate": 33.2716
     },
     {
       "bond_code": "52892",
       "bond_name": "宜鼎二",
       "stock_code": "5289",
-      "cb_price": 114.5,
+      "cb_price": 113.8,
       "conversion_price": 2180.0,
-      "stock_price": 1290.0,
+      "stock_price": 1275.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 59.1743,
-      "premium_rate": 93.4961
+      "conversion_value": 58.4862,
+      "premium_rate": 94.5757
     },
     {
       "bond_code": "52912",
       "bond_name": "邑昇二",
       "stock_code": "5291",
-      "cb_price": 109.05,
+      "cb_price": 109.2,
       "conversion_price": 53.0,
-      "stock_price": 57.5,
+      "stock_price": 56.7,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 108.4906,
-      "premium_rate": 0.5157
+      "conversion_value": 106.9811,
+      "premium_rate": 2.0741
     },
     {
       "bond_code": "53064",
@@ -2253,10 +2253,10 @@
       "stock_code": "5306",
       "cb_price": 100.0,
       "conversion_price": 118.8,
-      "stock_price": 89.0,
+      "stock_price": 89.5,
       "stock_price_source": "official",
-      "conversion_value": 74.9158,
-      "premium_rate": 33.4831
+      "conversion_value": 75.3367,
+      "premium_rate": 32.7374
     },
     {
       "bond_code": "53096",
@@ -2264,10 +2264,10 @@
       "stock_code": "5309",
       "cb_price": 102.0,
       "conversion_price": 63.0,
-      "stock_price": 49.2,
+      "stock_price": 49.25,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 78.0952,
-      "premium_rate": 30.6098
+      "conversion_value": 78.1746,
+      "premium_rate": 30.4772
     },
     {
       "bond_code": "53097",
@@ -2275,10 +2275,10 @@
       "stock_code": "5309",
       "cb_price": 112.0,
       "conversion_price": 54.6,
-      "stock_price": 49.2,
+      "stock_price": 49.25,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 90.1099,
-      "premium_rate": 24.2927
+      "conversion_value": 90.2015,
+      "premium_rate": 24.1665
     },
     {
       "bond_code": "53211",
@@ -2286,32 +2286,32 @@
       "stock_code": "5321",
       "cb_price": 100.3,
       "conversion_price": 92.0,
-      "stock_price": 71.8,
+      "stock_price": 66.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 78.0435,
-      "premium_rate": 28.5181
+      "conversion_value": 72.1739,
+      "premium_rate": 38.9699
     },
     {
       "bond_code": "53887",
       "bond_name": "中磊七",
       "stock_code": "5388",
-      "cb_price": 101.95,
+      "cb_price": 101.8,
       "conversion_price": 130.3,
-      "stock_price": 71.0,
+      "stock_price": 72.0,
       "stock_price_source": "official",
-      "conversion_value": 54.4896,
-      "premium_rate": 87.0998
+      "conversion_value": 55.2571,
+      "premium_rate": 84.2297
     },
     {
       "bond_code": "54391",
       "bond_name": "高技一",
       "stock_code": "5439",
-      "cb_price": 121.9,
+      "cb_price": 121.0,
       "conversion_price": 293.6,
-      "stock_price": 246.5,
+      "stock_price": 237.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 83.9578,
-      "premium_rate": 45.192
+      "conversion_value": 80.8924,
+      "premium_rate": 49.5815
     },
     {
       "bond_code": "54501",
@@ -2319,10 +2319,10 @@
       "stock_code": "5450",
       "cb_price": 106.0,
       "conversion_price": 17.1,
-      "stock_price": 14.4,
+      "stock_price": 14.35,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 84.2105,
-      "premium_rate": 25.875
+      "conversion_value": 83.9181,
+      "premium_rate": 26.3136
     },
     {
       "bond_code": "54573",
@@ -2330,21 +2330,21 @@
       "stock_code": "5457",
       "cb_price": 97.0,
       "conversion_price": 69.5,
-      "stock_price": 24.5,
+      "stock_price": 24.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 35.2518,
-      "premium_rate": 175.1633
+      "conversion_value": 35.1079,
+      "premium_rate": 176.291
     },
     {
       "bond_code": "54642",
       "bond_name": "霖宏二",
       "stock_code": "5464",
-      "cb_price": 267.0,
+      "cb_price": 254.0,
       "conversion_price": 33.4,
-      "stock_price": 89.1,
+      "stock_price": 85.2,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 266.7665,
-      "premium_rate": 0.0875
+      "conversion_value": 255.0898,
+      "premium_rate": -0.4272
     },
     {
       "bond_code": "55344",
@@ -2352,43 +2352,43 @@
       "stock_code": "5534",
       "cb_price": 117.0,
       "conversion_price": 74.8,
-      "stock_price": 73.6,
+      "stock_price": 73.1,
       "stock_price_source": "official",
-      "conversion_value": 98.3957,
-      "premium_rate": 18.9076
+      "conversion_value": 97.7273,
+      "premium_rate": 19.7209
     },
     {
       "bond_code": "55362",
       "bond_name": "聖暉二",
       "stock_code": "5536",
-      "cb_price": 120.0,
+      "cb_price": 117.65,
       "conversion_price": 1178.0,
-      "stock_price": 849.0,
+      "stock_price": 837.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 72.0713,
-      "premium_rate": 66.5018
+      "conversion_value": 71.0526,
+      "premium_rate": 65.5815
     },
     {
       "bond_code": "55363",
       "bond_name": "聖暉三",
       "stock_code": "5536",
-      "cb_price": 119.95,
+      "cb_price": 119.6,
       "conversion_price": 1158.0,
-      "stock_price": 849.0,
+      "stock_price": 837.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 73.3161,
-      "premium_rate": 63.6067
+      "conversion_value": 72.2798,
+      "premium_rate": 65.4681
     },
     {
       "bond_code": "56087",
       "bond_name": "四維航七",
       "stock_code": "5608",
-      "cb_price": 115.05,
+      "cb_price": 114.0,
       "conversion_price": 19.3,
-      "stock_price": 16.6,
+      "stock_price": 16.3,
       "stock_price_source": "official",
-      "conversion_value": 86.0104,
-      "premium_rate": 33.763
+      "conversion_value": 84.456,
+      "premium_rate": 34.9816
     },
     {
       "bond_code": "60152",
@@ -2396,10 +2396,10 @@
       "stock_code": "6015",
       "cb_price": 193.0,
       "conversion_price": 9.81,
-      "stock_price": 17.35,
+      "stock_price": 16.85,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 176.8603,
-      "premium_rate": 9.1256
+      "conversion_value": 171.7635,
+      "premium_rate": 12.3638
     },
     {
       "bond_code": "61011",
@@ -2407,21 +2407,21 @@
       "stock_code": "6101",
       "cb_price": 109.0,
       "conversion_price": 36.9,
-      "stock_price": 37.95,
+      "stock_price": 38.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 102.8455,
-      "premium_rate": 5.9842
+      "conversion_value": 102.981,
+      "premium_rate": 5.8447
     },
     {
       "bond_code": "61012",
       "bond_name": "寬魚國際二",
       "stock_code": "6101",
-      "cb_price": 98.05,
+      "cb_price": 98.35,
       "conversion_price": 38.9,
-      "stock_price": 37.95,
+      "stock_price": 38.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 97.5578,
-      "premium_rate": 0.5045
+      "conversion_value": 97.6864,
+      "premium_rate": 0.6793
     },
     {
       "bond_code": "61041",
@@ -2429,21 +2429,21 @@
       "stock_code": "6104",
       "cb_price": 107.6,
       "conversion_price": 119.0,
-      "stock_price": 90.0,
+      "stock_price": 89.2,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 75.6303,
-      "premium_rate": 42.2711
+      "conversion_value": 74.958,
+      "premium_rate": 43.5471
     },
     {
       "bond_code": "61112",
       "bond_name": "光聚晶電二",
       "stock_code": "6111",
-      "cb_price": 100.0,
+      "cb_price": 98.0,
       "conversion_price": 67.0,
-      "stock_price": 33.6,
+      "stock_price": 33.3,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 50.1493,
-      "premium_rate": 99.4048
+      "conversion_value": 49.7015,
+      "premium_rate": 97.1772
     },
     {
       "bond_code": "61171",
@@ -2451,21 +2451,21 @@
       "stock_code": "6117",
       "cb_price": 102.0,
       "conversion_price": 79.6,
-      "stock_price": 61.1,
+      "stock_price": 61.0,
       "stock_price_source": "official",
-      "conversion_value": 76.7588,
-      "premium_rate": 32.8838
+      "conversion_value": 76.6332,
+      "premium_rate": 33.1016
     },
     {
       "bond_code": "61172",
       "bond_name": "迎廣二",
       "stock_code": "6117",
-      "cb_price": 98.0,
+      "cb_price": 97.8,
       "conversion_price": 75.1,
-      "stock_price": 61.1,
+      "stock_price": 61.0,
       "stock_price_source": "official",
-      "conversion_value": 81.3582,
-      "premium_rate": 20.455
+      "conversion_value": 81.225,
+      "premium_rate": 20.4062
     },
     {
       "bond_code": "61255",
@@ -2473,10 +2473,10 @@
       "stock_code": "6125",
       "cb_price": 96.9,
       "conversion_price": 110.9,
-      "stock_price": 48.35,
+      "stock_price": 47.55,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 43.5978,
-      "premium_rate": 122.2587
+      "conversion_value": 42.8765,
+      "premium_rate": 125.9981
     },
     {
       "bond_code": "61263",
@@ -2484,10 +2484,10 @@
       "stock_code": "6126",
       "cb_price": 109.5,
       "conversion_price": 26.8,
-      "stock_price": 28.85,
+      "stock_price": 28.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 107.6493,
-      "premium_rate": 1.7192
+      "conversion_value": 106.3433,
+      "premium_rate": 2.9684
     },
     {
       "bond_code": "61343",
@@ -2495,10 +2495,10 @@
       "stock_code": "6134",
       "cb_price": 116.5,
       "conversion_price": 33.8,
-      "stock_price": 28.25,
+      "stock_price": 28.15,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 83.5799,
-      "premium_rate": 39.3876
+      "conversion_value": 83.284,
+      "premium_rate": 39.8828
     },
     {
       "bond_code": "61506",
@@ -2506,10 +2506,10 @@
       "stock_code": "6150",
       "cb_price": 98.6,
       "conversion_price": 89.3,
-      "stock_price": 60.6,
+      "stock_price": 60.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 67.8611,
-      "premium_rate": 45.2967
+      "conversion_value": 67.3012,
+      "premium_rate": 46.5055
     },
     {
       "bond_code": "61565",
@@ -2517,10 +2517,10 @@
       "stock_code": "6156",
       "cb_price": 104.6,
       "conversion_price": 28.8,
-      "stock_price": 20.0,
+      "stock_price": 20.05,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 69.4444,
-      "premium_rate": 50.624
+      "conversion_value": 69.6181,
+      "premium_rate": 50.2484
     },
     {
       "bond_code": "61635",
@@ -2528,10 +2528,10 @@
       "stock_code": "6163",
       "cb_price": 262.0,
       "conversion_price": 25.02,
-      "stock_price": 39.35,
+      "stock_price": 39.75,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 157.2742,
-      "premium_rate": 66.5881
+      "conversion_value": 158.8729,
+      "premium_rate": 64.9117
     },
     {
       "bond_code": "61777",
@@ -2548,45 +2548,45 @@
       "bond_code": "61794",
       "bond_name": "亞通四",
       "stock_code": "6179",
-      "cb_price": 122.2,
+      "cb_price": 125.45,
       "conversion_price": 28.2,
-      "stock_price": 34.4,
+      "stock_price": 34.85,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 121.9858,
-      "premium_rate": 0.1756
+      "conversion_value": 123.5816,
+      "premium_rate": 1.5119
     },
     {
       "bond_code": "61828",
       "bond_name": "合晶八",
       "stock_code": "6182",
-      "cb_price": 313.0,
+      "cb_price": 314.0,
       "conversion_price": 33.1,
-      "stock_price": 103.5,
+      "stock_price": 105.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 312.6888,
-      "premium_rate": 0.0995
+      "conversion_value": 318.7311,
+      "premium_rate": -1.4844
     },
     {
       "bond_code": "61843",
       "bond_name": "大豐電三",
       "stock_code": "6184",
-      "cb_price": 98.85,
+      "cb_price": 98.6,
       "conversion_price": 46.2,
-      "stock_price": 39.8,
+      "stock_price": 39.55,
       "stock_price_source": "official",
-      "conversion_value": 86.1472,
-      "premium_rate": 14.7455
+      "conversion_value": 85.6061,
+      "premium_rate": 15.1788
     },
     {
       "bond_code": "61876",
       "bond_name": "萬潤六",
       "stock_code": "6187",
-      "cb_price": 140.0,
+      "cb_price": 138.0,
       "conversion_price": 1136.8,
-      "stock_price": 1225.0,
+      "stock_price": 1215.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 107.7586,
-      "premium_rate": 29.92
+      "conversion_value": 106.879,
+      "premium_rate": 29.118
     },
     {
       "bond_code": "61894",
@@ -2594,21 +2594,21 @@
       "stock_code": "6189",
       "cb_price": 127.95,
       "conversion_price": 40.97,
-      "stock_price": 47.05,
+      "stock_price": 46.6,
       "stock_price_source": "official",
-      "conversion_value": 114.8401,
-      "premium_rate": 11.4158
+      "conversion_value": 113.7418,
+      "premium_rate": 12.4917
     },
     {
       "bond_code": "61907",
       "bond_name": "萬泰科七",
       "stock_code": "6190",
-      "cb_price": 161.0,
+      "cb_price": 163.0,
       "conversion_price": 40.7,
       "stock_price": 66.0,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 162.1622,
-      "premium_rate": -0.7167
+      "premium_rate": 0.5167
     },
     {
       "bond_code": "61973",
@@ -2616,32 +2616,32 @@
       "stock_code": "6197",
       "cb_price": 200.0,
       "conversion_price": 148.8,
-      "stock_price": 297.0,
+      "stock_price": 292.0,
       "stock_price_source": "official",
-      "conversion_value": 199.5968,
-      "premium_rate": 0.202
+      "conversion_value": 196.2366,
+      "premium_rate": 1.9178
     },
     {
       "bond_code": "61993",
       "bond_name": "天品三",
       "stock_code": "6199",
-      "cb_price": 119.5,
+      "cb_price": 120.4,
       "conversion_price": 104.6,
-      "stock_price": 100.5,
+      "stock_price": 102.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 96.0803,
-      "premium_rate": 24.3751
+      "conversion_value": 97.9924,
+      "premium_rate": 22.8667
     },
     {
       "bond_code": "61994",
       "bond_name": "天品四",
       "stock_code": "6199",
-      "cb_price": 95.4,
+      "cb_price": 95.8,
       "conversion_price": 114.8,
-      "stock_price": 100.5,
+      "stock_price": 102.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 87.5436,
-      "premium_rate": 8.9743
+      "conversion_value": 89.2857,
+      "premium_rate": 7.296
     },
     {
       "bond_code": "62075",
@@ -2649,10 +2649,10 @@
       "stock_code": "6207",
       "cb_price": 219.0,
       "conversion_price": 50.5,
-      "stock_price": 106.5,
+      "stock_price": 104.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 210.8911,
-      "premium_rate": 3.8451
+      "conversion_value": 205.9406,
+      "premium_rate": 6.3413
     },
     {
       "bond_code": "62076",
@@ -2660,21 +2660,21 @@
       "stock_code": "6207",
       "cb_price": 243.0,
       "conversion_price": 49.0,
-      "stock_price": 106.5,
+      "stock_price": 104.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 217.3469,
-      "premium_rate": 11.8028
+      "conversion_value": 212.2449,
+      "premium_rate": 14.4904
     },
     {
       "bond_code": "62093",
       "bond_name": "今國光三",
       "stock_code": "6209",
-      "cb_price": 212.0,
+      "cb_price": 206.0,
       "conversion_price": 38.3,
-      "stock_price": 76.5,
+      "stock_price": 75.6,
       "stock_price_source": "official",
-      "conversion_value": 199.7389,
-      "premium_rate": 6.1386
+      "conversion_value": 197.389,
+      "premium_rate": 4.3624
     },
     {
       "bond_code": "62194",
@@ -2682,32 +2682,32 @@
       "stock_code": "6219",
       "cb_price": 102.0,
       "conversion_price": 21.17,
-      "stock_price": 12.05,
+      "stock_price": 12.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 56.9202,
-      "premium_rate": 79.1983
+      "conversion_value": 56.684,
+      "premium_rate": 79.945
     },
     {
       "bond_code": "622010",
       "bond_name": "岳豐十",
       "stock_code": "6220",
-      "cb_price": 110.0,
+      "cb_price": 110.1,
       "conversion_price": 32.4,
-      "stock_price": 25.6,
+      "stock_price": 25.45,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 79.0123,
-      "premium_rate": 39.2187
+      "conversion_value": 78.5494,
+      "premium_rate": 40.1666
     },
     {
       "bond_code": "62236",
       "bond_name": "旺矽六",
       "stock_code": "6223",
-      "cb_price": 139.5,
+      "cb_price": 138.2,
       "conversion_price": 6201.8,
-      "stock_price": 5595.0,
+      "stock_price": 5440.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 90.2157,
-      "premium_rate": 54.6293
+      "conversion_value": 87.7165,
+      "premium_rate": 57.5531
     },
     {
       "bond_code": "62433",
@@ -2715,54 +2715,54 @@
       "stock_code": "6243",
       "cb_price": 96.05,
       "conversion_price": 65.8,
-      "stock_price": 36.9,
+      "stock_price": 36.4,
       "stock_price_source": "official",
-      "conversion_value": 56.079,
-      "premium_rate": 71.2762
+      "conversion_value": 55.3191,
+      "premium_rate": 73.6288
     },
     {
       "bond_code": "62695",
       "bond_name": "台郡五",
       "stock_code": "6269",
-      "cb_price": 104.95,
+      "cb_price": 104.0,
       "conversion_price": 93.0,
-      "stock_price": 64.7,
+      "stock_price": 63.3,
       "stock_price_source": "official",
-      "conversion_value": 69.5699,
-      "premium_rate": 50.8555
+      "conversion_value": 68.0645,
+      "premium_rate": 52.7962
     },
     {
       "bond_code": "62696",
       "bond_name": "台郡六",
       "stock_code": "6269",
-      "cb_price": 100.05,
+      "cb_price": 100.1,
       "conversion_price": 101.0,
-      "stock_price": 64.7,
+      "stock_price": 63.3,
       "stock_price_source": "official",
-      "conversion_value": 64.0594,
-      "premium_rate": 56.1832
+      "conversion_value": 62.6733,
+      "premium_rate": 59.7172
     },
     {
       "bond_code": "62822",
       "bond_name": "康舒二",
       "stock_code": "6282",
-      "cb_price": 111.5,
+      "cb_price": 110.4,
       "conversion_price": 45.2,
-      "stock_price": 42.5,
+      "stock_price": 41.55,
       "stock_price_source": "official",
-      "conversion_value": 94.0265,
-      "premium_rate": 18.5835
+      "conversion_value": 91.9248,
+      "premium_rate": 20.0982
     },
     {
       "bond_code": "62843",
       "bond_name": "佳邦三",
       "stock_code": "6284",
-      "cb_price": 105.0,
+      "cb_price": 106.0,
       "conversion_price": 86.6,
-      "stock_price": 75.6,
+      "stock_price": 75.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 87.2979,
-      "premium_rate": 20.2778
+      "conversion_value": 86.6051,
+      "premium_rate": 22.3947
     },
     {
       "bond_code": "629010",
@@ -2770,21 +2770,21 @@
       "stock_code": "6290",
       "cb_price": 335.0,
       "conversion_price": 74.4,
-      "stock_price": 260.0,
+      "stock_price": 253.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 349.4624,
-      "premium_rate": -4.1385
+      "conversion_value": 340.7258,
+      "premium_rate": -1.6805
     },
     {
       "bond_code": "64251",
       "bond_name": "易發一",
       "stock_code": "6425",
-      "cb_price": 116.0,
+      "cb_price": 116.05,
       "conversion_price": 57.9,
-      "stock_price": 61.1,
+      "stock_price": 59.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 105.5268,
-      "premium_rate": 9.9247
+      "conversion_value": 102.9361,
+      "premium_rate": 12.7398
     },
     {
       "bond_code": "64324",
@@ -2792,43 +2792,43 @@
       "stock_code": "6432",
       "cb_price": 245.0,
       "conversion_price": 30.48,
-      "stock_price": 52.7,
+      "stock_price": 52.2,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 172.9003,
-      "premium_rate": 41.7002
+      "conversion_value": 171.2598,
+      "premium_rate": 43.0575
     },
     {
       "bond_code": "64693",
       "bond_name": "大樹三",
       "stock_code": "6469",
-      "cb_price": 100.2,
+      "cb_price": 99.95,
       "conversion_price": 119.96,
-      "stock_price": 65.5,
+      "stock_price": 64.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 54.6015,
-      "premium_rate": 83.5113
+      "conversion_value": 53.6846,
+      "premium_rate": 86.1802
     },
     {
       "bond_code": "64724",
       "bond_name": "保瑞四",
       "stock_code": "6472",
-      "cb_price": 106.6,
+      "cb_price": 106.55,
       "conversion_price": 500.0,
-      "stock_price": 403.5,
+      "stock_price": 411.0,
       "stock_price_source": "official",
-      "conversion_value": 80.7,
-      "premium_rate": 32.0942
+      "conversion_value": 82.2,
+      "premium_rate": 29.6229
     },
     {
       "bond_code": "64725",
       "bond_name": "保瑞五",
       "stock_code": "6472",
-      "cb_price": 105.0,
+      "cb_price": 106.0,
       "conversion_price": 485.0,
-      "stock_price": 403.5,
+      "stock_price": 411.0,
       "stock_price_source": "official",
-      "conversion_value": 83.1959,
-      "premium_rate": 26.2082
+      "conversion_value": 84.7423,
+      "premium_rate": 25.0852
     },
     {
       "bond_code": "64774",
@@ -2836,10 +2836,10 @@
       "stock_code": "6477",
       "cb_price": 97.4,
       "conversion_price": 49.8,
-      "stock_price": 34.05,
+      "stock_price": 33.5,
       "stock_price_source": "official",
-      "conversion_value": 68.3735,
-      "premium_rate": 42.4529
+      "conversion_value": 67.2691,
+      "premium_rate": 44.7916
     },
     {
       "bond_code": "64775",
@@ -2847,65 +2847,65 @@
       "stock_code": "6477",
       "cb_price": 96.2,
       "conversion_price": 43.8,
-      "stock_price": 34.05,
+      "stock_price": 33.5,
       "stock_price_source": "official",
-      "conversion_value": 77.7397,
-      "premium_rate": 23.7463
+      "conversion_value": 76.484,
+      "premium_rate": 25.7779
     },
     {
       "bond_code": "65096",
       "bond_name": "聚和六",
       "stock_code": "6509",
-      "cb_price": 131.25,
+      "cb_price": 130.3,
       "conversion_price": 36.6,
-      "stock_price": 45.2,
+      "stock_price": 46.15,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 123.4973,
-      "premium_rate": 6.2777
+      "conversion_value": 126.0929,
+      "premium_rate": 3.3365
     },
     {
       "bond_code": "65101",
       "bond_name": "精測一",
       "stock_code": "6510",
-      "cb_price": 182.0,
+      "cb_price": 177.0,
       "conversion_price": 2008.1,
-      "stock_price": 3375.0,
+      "stock_price": 3255.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 168.0693,
-      "premium_rate": 8.2887
+      "conversion_value": 162.0935,
+      "premium_rate": 9.1962
     },
     {
       "bond_code": "65152",
       "bond_name": "穎崴二",
       "stock_code": "6515",
-      "cb_price": 197.0,
+      "cb_price": 185.0,
       "conversion_price": 3520.6,
-      "stock_price": 6600.0,
+      "stock_price": 6310.0,
       "stock_price_source": "official",
-      "conversion_value": 187.468,
-      "premium_rate": 5.0846
+      "conversion_value": 179.2308,
+      "premium_rate": 3.2189
     },
     {
       "bond_code": "65331",
       "bond_name": "晶心科一",
       "stock_code": "6533",
-      "cb_price": 95.5,
+      "cb_price": 95.0,
       "conversion_price": 308.0,
-      "stock_price": 232.0,
+      "stock_price": 224.5,
       "stock_price_source": "official",
-      "conversion_value": 75.3247,
-      "premium_rate": 26.7845
+      "conversion_value": 72.8896,
+      "premium_rate": 30.3341
     },
     {
       "bond_code": "65381",
       "bond_name": "倉和一",
       "stock_code": "6538",
-      "cb_price": 358.0,
+      "cb_price": 353.0,
       "conversion_price": 103.2,
-      "stock_price": 372.5,
+      "stock_price": 365.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 360.9496,
-      "premium_rate": -0.8172
+      "conversion_value": 353.6822,
+      "premium_rate": -0.1929
     },
     {
       "bond_code": "65461",
@@ -2913,10 +2913,10 @@
       "stock_code": "6546",
       "cb_price": 97.0,
       "conversion_price": 144.0,
-      "stock_price": 59.3,
+      "stock_price": 59.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 41.1806,
-      "premium_rate": 135.5481
+      "conversion_value": 41.0417,
+      "premium_rate": 136.3452
     },
     {
       "bond_code": "65462",
@@ -2924,10 +2924,10 @@
       "stock_code": "6546",
       "cb_price": 103.95,
       "conversion_price": 85.5,
-      "stock_price": 59.3,
+      "stock_price": 59.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 69.3567,
-      "premium_rate": 49.8773
+      "conversion_value": 69.1228,
+      "premium_rate": 50.3845
     },
     {
       "bond_code": "65463",
@@ -2935,21 +2935,21 @@
       "stock_code": "6546",
       "cb_price": 105.3,
       "conversion_price": 78.8,
-      "stock_price": 59.3,
+      "stock_price": 59.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 75.2538,
-      "premium_rate": 39.9265
+      "conversion_value": 75.0,
+      "premium_rate": 40.4
     },
     {
       "bond_code": "65472",
       "bond_name": "高端疫苗二",
       "stock_code": "6547",
-      "cb_price": 163.0,
+      "cb_price": 165.0,
       "conversion_price": 37.0,
-      "stock_price": 58.1,
+      "stock_price": 59.7,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 157.027,
-      "premium_rate": 3.8038
+      "conversion_value": 161.3514,
+      "premium_rate": 2.2613
     },
     {
       "bond_code": "65521",
@@ -2966,23 +2966,23 @@
       "bond_code": "65702",
       "bond_name": "維田二",
       "stock_code": "6570",
-      "cb_price": 108.25,
+      "cb_price": 108.2,
       "conversion_price": 55.73,
-      "stock_price": 47.2,
+      "stock_price": 46.2,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 84.6941,
-      "premium_rate": 27.813
+      "conversion_value": 82.8997,
+      "premium_rate": 30.5192
     },
     {
       "bond_code": "65761",
       "bond_name": "逸達一",
       "stock_code": "6576",
-      "cb_price": 117.0,
+      "cb_price": 117.5,
       "conversion_price": 84.3,
-      "stock_price": 82.2,
+      "stock_price": 81.9,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 97.5089,
-      "premium_rate": 19.9891
+      "conversion_value": 97.153,
+      "premium_rate": 20.9432
     },
     {
       "bond_code": "65843",
@@ -2990,10 +2990,10 @@
       "stock_code": "6584",
       "cb_price": 126.0,
       "conversion_price": 685.0,
-      "stock_price": 544.0,
+      "stock_price": 537.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 79.4161,
-      "premium_rate": 58.6581
+      "conversion_value": 78.3942,
+      "premium_rate": 60.7263
     },
     {
       "bond_code": "65851",
@@ -3001,10 +3001,10 @@
       "stock_code": "6585",
       "cb_price": 101.7,
       "conversion_price": 106.3,
-      "stock_price": 103.5,
+      "stock_price": 102.5,
       "stock_price_source": "official",
-      "conversion_value": 97.3659,
-      "premium_rate": 4.4513
+      "conversion_value": 96.4252,
+      "premium_rate": 5.4703
     },
     {
       "bond_code": "65852",
@@ -3012,65 +3012,65 @@
       "stock_code": "6585",
       "cb_price": 100.3,
       "conversion_price": 106.1,
-      "stock_price": 103.5,
+      "stock_price": 102.5,
       "stock_price_source": "official",
-      "conversion_value": 97.5495,
-      "premium_rate": 2.8196
+      "conversion_value": 96.607,
+      "premium_rate": 3.8227
     },
     {
       "bond_code": "65914",
       "bond_name": "動力四KY",
       "stock_code": "6591",
-      "cb_price": 94.05,
+      "cb_price": 95.5,
       "conversion_price": 78.61,
-      "stock_price": 41.65,
+      "stock_price": 41.5,
       "stock_price_source": "official",
-      "conversion_value": 52.9831,
-      "premium_rate": 77.5095
+      "conversion_value": 52.7923,
+      "premium_rate": 80.8977
     },
     {
       "bond_code": "66034",
       "bond_name": "富強鑫四",
       "stock_code": "6603",
-      "cb_price": 113.5,
+      "cb_price": 112.0,
       "conversion_price": 26.63,
-      "stock_price": 25.9,
+      "stock_price": 25.05,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 97.2587,
-      "premium_rate": 16.699
+      "conversion_value": 94.0668,
+      "premium_rate": 19.0643
     },
     {
       "bond_code": "66163",
       "bond_name": "特昇三KY",
       "stock_code": "6616",
-      "cb_price": 100.8,
+      "cb_price": 100.9,
       "conversion_price": 14.5,
-      "stock_price": 8.35,
+      "stock_price": 8.55,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 57.5862,
-      "premium_rate": 75.0419
+      "conversion_value": 58.9655,
+      "premium_rate": 71.117
     },
     {
       "bond_code": "66241",
       "bond_name": "萬年清一",
       "stock_code": "6624",
       "cb_price": 126.0,
-      "conversion_price": 40.6,
-      "stock_price": 38.25,
+      "conversion_price": 40.3,
+      "stock_price": 39.3,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 94.2118,
-      "premium_rate": 33.7412
+      "conversion_value": 97.5186,
+      "premium_rate": 29.2061
     },
     {
       "bond_code": "66292",
       "bond_name": "泰金二KY",
       "stock_code": "6629",
-      "cb_price": 99.0,
+      "cb_price": 100.1,
       "conversion_price": 115.5,
       "stock_price": 103.0,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 89.1775,
-      "premium_rate": 11.0146
+      "premium_rate": 12.2481
     },
     {
       "bond_code": "66451",
@@ -3078,21 +3078,21 @@
       "stock_code": "6645",
       "cb_price": 102.95,
       "conversion_price": 27.87,
-      "stock_price": 13.0,
+      "stock_price": 12.65,
       "stock_price_source": "official",
-      "conversion_value": 46.6451,
-      "premium_rate": 120.709
+      "conversion_value": 45.3893,
+      "premium_rate": 126.8155
     },
     {
       "bond_code": "66642",
       "bond_name": "群翊二",
       "stock_code": "6664",
-      "cb_price": 135.5,
+      "cb_price": 131.0,
       "conversion_price": 284.2,
-      "stock_price": 336.0,
+      "stock_price": 333.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 118.2266,
-      "premium_rate": 14.6104
+      "conversion_value": 117.171,
+      "premium_rate": 11.8024
     },
     {
       "bond_code": "66702",
@@ -3100,10 +3100,10 @@
       "stock_code": "6670",
       "cb_price": 121.2,
       "conversion_price": 254.5,
-      "stock_price": 272.5,
+      "stock_price": 270.5,
       "stock_price_source": "official",
-      "conversion_value": 107.0727,
-      "premium_rate": 13.1941
+      "conversion_value": 106.2868,
+      "premium_rate": 14.0311
     },
     {
       "bond_code": "66801",
@@ -3111,21 +3111,21 @@
       "stock_code": "6680",
       "cb_price": 98.2,
       "conversion_price": 76.2,
-      "stock_price": 52.0,
+      "stock_price": 53.8,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 68.2415,
-      "premium_rate": 43.9008
+      "conversion_value": 70.6037,
+      "premium_rate": 39.0862
     },
     {
       "bond_code": "66831",
       "bond_name": "雍智一",
       "stock_code": "6683",
-      "cb_price": 145.0,
+      "cb_price": 149.35,
       "conversion_price": 1127.1,
-      "stock_price": 1335.0,
+      "stock_price": 1450.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 118.4456,
-      "premium_rate": 22.4191
+      "conversion_value": 128.6487,
+      "premium_rate": 16.0913
     },
     {
       "bond_code": "66931",
@@ -3133,21 +3133,21 @@
       "stock_code": "6693",
       "cb_price": 115.0,
       "conversion_price": 228.1,
-      "stock_price": 179.0,
+      "stock_price": 173.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 78.4744,
-      "premium_rate": 46.5447
+      "conversion_value": 76.0631,
+      "premium_rate": 51.1902
     },
     {
       "bond_code": "67062",
       "bond_name": "惠特二",
       "stock_code": "6706",
-      "cb_price": 107.0,
+      "cb_price": 104.0,
       "conversion_price": 176.0,
-      "stock_price": 151.0,
+      "stock_price": 143.5,
       "stock_price_source": "official",
-      "conversion_value": 85.7955,
-      "premium_rate": 24.7152
+      "conversion_value": 81.5341,
+      "premium_rate": 27.554
     },
     {
       "bond_code": "67531",
@@ -3155,10 +3155,10 @@
       "stock_code": "6753",
       "cb_price": 121.9,
       "conversion_price": 115.6,
-      "stock_price": 133.0,
+      "stock_price": 130.0,
       "stock_price_source": "official",
-      "conversion_value": 115.0519,
-      "premium_rate": 5.9522
+      "conversion_value": 112.4567,
+      "premium_rate": 8.3972
     },
     {
       "bond_code": "67681",
@@ -3166,10 +3166,10 @@
       "stock_code": "6768",
       "cb_price": 99.0,
       "conversion_price": 90.1,
-      "stock_price": 61.7,
+      "stock_price": 62.4,
       "stock_price_source": "official",
-      "conversion_value": 68.4795,
-      "premium_rate": 44.5689
+      "conversion_value": 69.2564,
+      "premium_rate": 42.9471
     },
     {
       "bond_code": "67711",
@@ -3188,10 +3188,10 @@
       "stock_code": "6796",
       "cb_price": 93.5,
       "conversion_price": 99.6,
-      "stock_price": 50.2,
+      "stock_price": 50.9,
       "stock_price_source": "official",
-      "conversion_value": 50.4016,
-      "premium_rate": 85.51
+      "conversion_value": 51.1044,
+      "premium_rate": 82.9587
     },
     {
       "bond_code": "68032",
@@ -3199,10 +3199,10 @@
       "stock_code": "6803",
       "cb_price": 90.8,
       "conversion_price": 306.2,
-      "stock_price": 268.5,
+      "stock_price": 269.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 87.6878,
-      "premium_rate": 3.5492
+      "conversion_value": 87.8511,
+      "premium_rate": 3.3567
     },
     {
       "bond_code": "68211",
@@ -3210,10 +3210,10 @@
       "stock_code": "6821",
       "cb_price": 107.0,
       "conversion_price": 42.19,
-      "stock_price": 40.5,
+      "stock_price": 40.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 95.9943,
-      "premium_rate": 11.4649
+      "conversion_value": 95.0462,
+      "premium_rate": 12.5768
     },
     {
       "bond_code": "68301",
@@ -3221,10 +3221,10 @@
       "stock_code": "6830",
       "cb_price": 395.0,
       "conversion_price": 149.0,
-      "stock_price": 556.0,
+      "stock_price": 532.0,
       "stock_price_source": "official",
-      "conversion_value": 373.1544,
-      "premium_rate": 5.8543
+      "conversion_value": 357.047,
+      "premium_rate": 10.6297
     },
     {
       "bond_code": "68351",
@@ -3232,21 +3232,21 @@
       "stock_code": "6835",
       "cb_price": 99.2,
       "conversion_price": 47.4,
-      "stock_price": 30.1,
+      "stock_price": 30.35,
       "stock_price_source": "official",
-      "conversion_value": 63.5021,
-      "premium_rate": 56.2153
+      "conversion_value": 64.0295,
+      "premium_rate": 54.9285
     },
     {
       "bond_code": "68401",
       "bond_name": "東研信超一",
       "stock_code": "6840",
-      "cb_price": 139.0,
+      "cb_price": 139.5,
       "conversion_price": 64.7,
-      "stock_price": 90.7,
+      "stock_price": 90.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 140.1855,
-      "premium_rate": -0.8456
+      "conversion_value": 139.1036,
+      "premium_rate": 0.285
     },
     {
       "bond_code": "68431",
@@ -3254,10 +3254,10 @@
       "stock_code": "6843",
       "cb_price": 97.3,
       "conversion_price": 58.4,
-      "stock_price": 37.85,
+      "stock_price": 38.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 64.8116,
-      "premium_rate": 50.1273
+      "conversion_value": 65.9247,
+      "premium_rate": 47.5927
     },
     {
       "bond_code": "68461",
@@ -3265,10 +3265,10 @@
       "stock_code": "6846",
       "cb_price": 93.65,
       "conversion_price": 75.8,
-      "stock_price": 59.9,
+      "stock_price": 58.7,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 79.0237,
-      "premium_rate": 18.5087
+      "conversion_value": 77.4406,
+      "premium_rate": 20.9313
     },
     {
       "bond_code": "68462",
@@ -3276,10 +3276,10 @@
       "stock_code": "6846",
       "cb_price": 94.3,
       "conversion_price": 73.6,
-      "stock_price": 59.9,
+      "stock_price": 58.7,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 81.3859,
-      "premium_rate": 15.8678
+      "conversion_value": 79.7554,
+      "premium_rate": 18.2365
     },
     {
       "bond_code": "68541",
@@ -3287,65 +3287,65 @@
       "stock_code": "6854",
       "cb_price": 102.0,
       "conversion_price": 248.3,
-      "stock_price": 89.2,
+      "stock_price": 87.4,
       "stock_price_source": "official",
-      "conversion_value": 35.9243,
-      "premium_rate": 183.9305
+      "conversion_value": 35.1994,
+      "premium_rate": 189.778
     },
     {
       "bond_code": "68621",
       "bond_name": "三集瑞一KY",
       "stock_code": "6862",
-      "cb_price": 98.0,
+      "cb_price": 98.05,
       "conversion_price": 191.9,
-      "stock_price": 132.0,
+      "stock_price": 130.0,
       "stock_price_source": "official",
-      "conversion_value": 68.7858,
-      "premium_rate": 42.4712
+      "conversion_value": 67.7436,
+      "premium_rate": 44.7369
     },
     {
       "bond_code": "68631",
       "bond_name": "永道一KY",
       "stock_code": "6863",
-      "cb_price": 93.7,
+      "cb_price": 93.9,
       "conversion_price": 290.1,
       "stock_price": 92.9,
       "stock_price_source": "official",
       "conversion_value": 32.0234,
-      "premium_rate": 192.5982
+      "premium_rate": 193.2227
     },
     {
       "bond_code": "68692",
       "bond_name": "雲豹能源二",
       "stock_code": "6869",
-      "cb_price": 108.6,
+      "cb_price": 108.5,
       "conversion_price": 72.3,
       "stock_price": 63.5,
       "stock_price_source": "official",
       "conversion_value": 87.8285,
-      "premium_rate": 23.6501
+      "premium_rate": 23.5362
     },
     {
       "bond_code": "68701",
       "bond_name": "騰雲一",
       "stock_code": "6870",
-      "cb_price": 155.0,
+      "cb_price": 167.0,
       "conversion_price": 196.6,
-      "stock_price": 304.5,
+      "stock_price": 329.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 154.883,
-      "premium_rate": 0.0755
+      "conversion_value": 167.3449,
+      "premium_rate": -0.2061
     },
     {
       "bond_code": "68702",
       "bond_name": "騰雲二",
       "stock_code": "6870",
-      "cb_price": 165.0,
+      "cb_price": 175.0,
       "conversion_price": 187.3,
-      "stock_price": 304.5,
+      "stock_price": 329.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 162.5734,
-      "premium_rate": 1.4926
+      "conversion_value": 175.654,
+      "premium_rate": -0.3723
     },
     {
       "bond_code": "68731",
@@ -3353,21 +3353,21 @@
       "stock_code": "6873",
       "cb_price": 116.0,
       "conversion_price": 92.3,
-      "stock_price": 68.0,
+      "stock_price": 67.1,
       "stock_price_source": "official",
-      "conversion_value": 73.6728,
-      "premium_rate": 57.4529
+      "conversion_value": 72.6977,
+      "premium_rate": 59.5648
     },
     {
       "bond_code": "68732",
       "bond_name": "泓德能源二",
       "stock_code": "6873",
-      "cb_price": 82.25,
+      "cb_price": 82.1,
       "conversion_price": 208.4,
-      "stock_price": 68.0,
+      "stock_price": 67.1,
       "stock_price_source": "official",
-      "conversion_value": 32.6296,
-      "premium_rate": 152.0721
+      "conversion_value": 32.1977,
+      "premium_rate": 154.9872
     },
     {
       "bond_code": "68741",
@@ -3375,10 +3375,10 @@
       "stock_code": "6874",
       "cb_price": 101.0,
       "conversion_price": 90.0,
-      "stock_price": 69.7,
+      "stock_price": 69.4,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 77.4444,
-      "premium_rate": 30.4161
+      "conversion_value": 77.1111,
+      "premium_rate": 30.9798
     },
     {
       "bond_code": "68901",
@@ -3386,32 +3386,32 @@
       "stock_code": "6890",
       "cb_price": 88.8,
       "conversion_price": 237.5,
-      "stock_price": 147.5,
+      "stock_price": 148.5,
       "stock_price_source": "official",
-      "conversion_value": 62.1053,
-      "premium_rate": 42.9831
+      "conversion_value": 62.5263,
+      "premium_rate": 42.0202
     },
     {
       "bond_code": "68902",
       "bond_name": "來億二KY",
       "stock_code": "6890",
-      "cb_price": 89.0,
+      "cb_price": 88.95,
       "conversion_price": 236.3,
-      "stock_price": 147.5,
+      "stock_price": 148.5,
       "stock_price_source": "official",
-      "conversion_value": 62.4207,
-      "premium_rate": 42.581
+      "conversion_value": 62.8438,
+      "premium_rate": 41.5413
     },
     {
       "bond_code": "68941",
       "bond_name": "衛司特一",
       "stock_code": "6894",
-      "cb_price": 142.0,
+      "cb_price": 141.4,
       "conversion_price": 254.9,
-      "stock_price": 364.0,
+      "stock_price": 352.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 142.8011,
-      "premium_rate": -0.561
+      "conversion_value": 138.2895,
+      "premium_rate": 2.2492
     },
     {
       "bond_code": "69031",
@@ -3419,21 +3419,21 @@
       "stock_code": "6903",
       "cb_price": 109.4,
       "conversion_price": 406.6,
-      "stock_price": 292.0,
+      "stock_price": 290.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 71.8151,
-      "premium_rate": 52.3358
+      "conversion_value": 71.4461,
+      "premium_rate": 53.1223
     },
     {
       "bond_code": "69032",
       "bond_name": "巨漢二",
       "stock_code": "6903",
-      "cb_price": 110.05,
+      "cb_price": 109.5,
       "conversion_price": 369.8,
-      "stock_price": 292.0,
+      "stock_price": 290.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 78.9616,
-      "premium_rate": 39.3715
+      "conversion_value": 78.556,
+      "premium_rate": 39.391
     },
     {
       "bond_code": "69041",
@@ -3441,10 +3441,10 @@
       "stock_code": "6904",
       "cb_price": 101.0,
       "conversion_price": 124.7,
-      "stock_price": 122.5,
+      "stock_price": 122.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 98.2358,
-      "premium_rate": 2.8139
+      "conversion_value": 97.8348,
+      "premium_rate": 3.2352
     },
     {
       "bond_code": "69131",
@@ -3452,21 +3452,21 @@
       "stock_code": "6913",
       "cb_price": 127.0,
       "conversion_price": 126.0,
-      "stock_price": 125.5,
+      "stock_price": 124.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 99.6032,
-      "premium_rate": 27.506
+      "conversion_value": 98.8095,
+      "premium_rate": 28.5301
     },
     {
       "bond_code": "69571",
       "bond_name": "裕慶一KY",
       "stock_code": "6957",
-      "cb_price": 130.25,
+      "cb_price": 131.0,
       "conversion_price": 182.8,
-      "stock_price": 240.0,
+      "stock_price": 245.0,
       "stock_price_source": "official",
-      "conversion_value": 131.291,
-      "premium_rate": -0.7929
+      "conversion_value": 134.0263,
+      "premium_rate": -2.258
     },
     {
       "bond_code": "69821",
@@ -3474,10 +3474,10 @@
       "stock_code": "6982",
       "cb_price": 96.05,
       "conversion_price": 63.6,
-      "stock_price": 44.15,
+      "stock_price": 43.85,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 69.4182,
-      "premium_rate": 38.3642
+      "conversion_value": 68.9465,
+      "premium_rate": 39.3108
     },
     {
       "bond_code": "69822",
@@ -3485,10 +3485,10 @@
       "stock_code": "6982",
       "cb_price": 95.6,
       "conversion_price": 61.8,
-      "stock_price": 44.15,
+      "stock_price": 43.85,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 71.4401,
-      "premium_rate": 33.8183
+      "conversion_value": 70.9547,
+      "premium_rate": 34.7339
     },
     {
       "bond_code": "74022",
@@ -3496,10 +3496,10 @@
       "stock_code": "7402",
       "cb_price": 130.0,
       "conversion_price": 97.6,
-      "stock_price": 101.5,
+      "stock_price": 99.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 103.9959,
-      "premium_rate": 25.0049
+      "conversion_value": 101.4344,
+      "premium_rate": 28.1616
     },
     {
       "bond_code": "75561",
@@ -3507,32 +3507,32 @@
       "stock_code": "7556",
       "cb_price": 149.0,
       "conversion_price": 169.9,
-      "stock_price": 242.0,
+      "stock_price": 238.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 142.4367,
-      "premium_rate": 4.6079
+      "conversion_value": 140.3767,
+      "premium_rate": 6.143
     },
     {
       "bond_code": "75562",
       "bond_name": "意德士二",
       "stock_code": "7556",
-      "cb_price": 155.0,
+      "cb_price": 149.0,
       "conversion_price": 166.7,
-      "stock_price": 242.0,
+      "stock_price": 238.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 145.171,
-      "premium_rate": 6.7707
+      "conversion_value": 143.0714,
+      "premium_rate": 4.1438
     },
     {
       "bond_code": "76101",
       "bond_name": "聯友金屬一創",
       "stock_code": "7610",
-      "cb_price": 270.0,
+      "cb_price": 263.0,
       "conversion_price": 662.3,
-      "stock_price": 1780.0,
+      "stock_price": 1655.0,
       "stock_price_source": "official",
-      "conversion_value": 268.7604,
-      "premium_rate": 0.4612
+      "conversion_value": 249.8868,
+      "premium_rate": 5.2477
     },
     {
       "bond_code": "76311",
@@ -3560,12 +3560,12 @@
       "bond_code": "77431",
       "bond_name": "金利食安一",
       "stock_code": "7743",
-      "cb_price": 101.5,
+      "cb_price": 100.15,
       "conversion_price": 22.5,
-      "stock_price": 22.9,
+      "stock_price": 22.8,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 101.7778,
-      "premium_rate": -0.2729
+      "conversion_value": 101.3333,
+      "premium_rate": -1.1678
     },
     {
       "bond_code": "80212",
@@ -3573,10 +3573,10 @@
       "stock_code": "8021",
       "cb_price": 217.0,
       "conversion_price": 200.4,
-      "stock_price": 442.5,
+      "stock_price": 431.5,
       "stock_price_source": "official",
-      "conversion_value": 220.8084,
-      "premium_rate": -1.7247
+      "conversion_value": 215.3194,
+      "premium_rate": 0.7805
     },
     {
       "bond_code": "80273",
@@ -3584,10 +3584,10 @@
       "stock_code": "8027",
       "cb_price": 369.0,
       "conversion_price": 64.74,
-      "stock_price": 166.0,
+      "stock_price": 164.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 256.4103,
-      "premium_rate": 43.91
+      "conversion_value": 253.321,
+      "premium_rate": 45.665
     },
     {
       "bond_code": "80282",
@@ -3595,10 +3595,10 @@
       "stock_code": "8028",
       "cb_price": 174.0,
       "conversion_price": 136.8,
-      "stock_price": 221.5,
+      "stock_price": 226.5,
       "stock_price_source": "official",
-      "conversion_value": 161.9152,
-      "premium_rate": 7.4637
+      "conversion_value": 165.5702,
+      "premium_rate": 5.0914
     },
     {
       "bond_code": "80426",
@@ -3606,54 +3606,54 @@
       "stock_code": "8042",
       "cb_price": 202.0,
       "conversion_price": 59.4,
-      "stock_price": 111.0,
+      "stock_price": 110.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 186.8687,
-      "premium_rate": 8.0973
+      "conversion_value": 185.1852,
+      "premium_rate": 9.08
     },
     {
       "bond_code": "80506",
       "bond_name": "廣積六",
       "stock_code": "8050",
-      "cb_price": 113.95,
+      "cb_price": 110.1,
       "conversion_price": 60.9,
-      "stock_price": 56.6,
+      "stock_price": 57.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 92.9392,
-      "premium_rate": 22.607
+      "conversion_value": 93.5961,
+      "premium_rate": 17.6332
     },
     {
       "bond_code": "80541",
       "bond_name": "安國一",
       "stock_code": "8054",
-      "cb_price": 117.95,
+      "cb_price": 115.2,
       "conversion_price": 122.4,
-      "stock_price": 82.5,
+      "stock_price": 80.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 67.402,
-      "premium_rate": 74.9949
+      "conversion_value": 65.768,
+      "premium_rate": 75.1612
     },
     {
       "bond_code": "80746",
       "bond_name": "鉅橡六",
       "stock_code": "8074",
-      "cb_price": 115.0,
+      "cb_price": 110.0,
       "conversion_price": 77.0,
-      "stock_price": 49.9,
+      "stock_price": 48.85,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 64.8052,
-      "premium_rate": 77.4549
+      "conversion_value": 63.4416,
+      "premium_rate": 73.3879
     },
     {
       "bond_code": "80872",
       "bond_name": "麗升能源二",
       "stock_code": "8087",
-      "cb_price": 96.2,
+      "cb_price": 96.05,
       "conversion_price": 39.4,
-      "stock_price": 24.4,
+      "stock_price": 24.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 61.9289,
-      "premium_rate": 55.3393
+      "conversion_value": 60.9137,
+      "premium_rate": 57.6821
     },
     {
       "bond_code": "80914",
@@ -3661,10 +3661,10 @@
       "stock_code": "8091",
       "cb_price": 167.0,
       "conversion_price": 124.9,
-      "stock_price": 207.0,
+      "stock_price": 204.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 165.7326,
-      "premium_rate": 0.7647
+      "conversion_value": 163.3307,
+      "premium_rate": 2.2466
     },
     {
       "bond_code": "80924",
@@ -3681,12 +3681,12 @@
       "bond_code": "80962",
       "bond_name": "擎亞二",
       "stock_code": "8096",
-      "cb_price": 98.35,
+      "cb_price": 99.75,
       "conversion_price": 158.0,
       "stock_price": 86.0,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 54.4304,
-      "premium_rate": 80.6895
+      "premium_rate": 83.2616
     },
     {
       "bond_code": "80963",
@@ -3705,32 +3705,32 @@
       "stock_code": "8104",
       "cb_price": 100.0,
       "conversion_price": 69.98,
-      "stock_price": 29.65,
+      "stock_price": 28.9,
       "stock_price_source": "official",
-      "conversion_value": 42.3692,
-      "premium_rate": 136.0202
+      "conversion_value": 41.2975,
+      "premium_rate": 142.1453
     },
     {
       "bond_code": "81114",
       "bond_name": "立碁四",
       "stock_code": "8111",
-      "cb_price": 125.6,
+      "cb_price": 126.0,
       "conversion_price": 74.4,
-      "stock_price": 70.7,
+      "stock_price": 68.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 95.0269,
-      "premium_rate": 32.1731
+      "conversion_value": 91.5323,
+      "premium_rate": 37.6564
     },
     {
       "bond_code": "811210",
       "bond_name": "至上十",
       "stock_code": "8112",
-      "cb_price": 126.4,
+      "cb_price": 126.0,
       "conversion_price": 69.5,
-      "stock_price": 83.6,
+      "stock_price": 82.6,
       "stock_price_source": "official",
-      "conversion_value": 120.2878,
-      "premium_rate": 5.0813
+      "conversion_value": 118.8489,
+      "premium_rate": 6.0169
     },
     {
       "bond_code": "811211",
@@ -3738,21 +3738,21 @@
       "stock_code": "8112",
       "cb_price": 107.9,
       "conversion_price": 90.1,
-      "stock_price": 83.6,
+      "stock_price": 82.6,
       "stock_price_source": "official",
-      "conversion_value": 92.7858,
-      "premium_rate": 16.2894
+      "conversion_value": 91.6759,
+      "premium_rate": 17.6972
     },
     {
       "bond_code": "81473",
       "bond_name": "正淩三",
       "stock_code": "8147",
-      "cb_price": 128.0,
+      "cb_price": 127.95,
       "conversion_price": 132.1,
-      "stock_price": 131.5,
+      "stock_price": 129.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 99.5458,
-      "premium_rate": 28.584
+      "conversion_value": 98.0318,
+      "premium_rate": 30.5189
     },
     {
       "bond_code": "81551",
@@ -3760,10 +3760,10 @@
       "stock_code": "8155",
       "cb_price": 285.0,
       "conversion_price": 120.0,
-      "stock_price": 316.5,
+      "stock_price": 313.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 263.75,
-      "premium_rate": 8.0569
+      "conversion_value": 261.25,
+      "premium_rate": 9.0909
     },
     {
       "bond_code": "81552",
@@ -3771,21 +3771,21 @@
       "stock_code": "8155",
       "cb_price": 124.0,
       "conversion_price": 338.0,
-      "stock_price": 316.5,
+      "stock_price": 313.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 93.6391,
-      "premium_rate": 32.4234
+      "conversion_value": 92.7515,
+      "premium_rate": 33.6906
     },
     {
       "bond_code": "81553",
       "bond_name": "博智三",
       "stock_code": "8155",
-      "cb_price": 129.75,
+      "cb_price": 129.3,
       "conversion_price": 318.0,
-      "stock_price": 316.5,
+      "stock_price": 313.5,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 99.5283,
-      "premium_rate": 30.3649
+      "conversion_value": 98.5849,
+      "premium_rate": 31.156
     },
     {
       "bond_code": "81714",
@@ -3802,23 +3802,23 @@
       "bond_code": "81715",
       "bond_name": "天宇五",
       "stock_code": "8171",
-      "cb_price": 93.0,
+      "cb_price": 93.5,
       "conversion_price": 32.4,
       "stock_price": 19.8,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 61.1111,
-      "premium_rate": 52.1818
+      "premium_rate": 53.0
     },
     {
       "bond_code": "82102",
       "bond_name": "勤誠二",
       "stock_code": "8210",
-      "cb_price": 130.2,
+      "cb_price": 130.4,
       "conversion_price": 997.3,
-      "stock_price": 886.0,
+      "stock_price": 874.0,
       "stock_price_source": "official",
-      "conversion_value": 88.8399,
-      "premium_rate": 46.5558
+      "conversion_value": 87.6366,
+      "premium_rate": 48.7962
     },
     {
       "bond_code": "82103",
@@ -3826,43 +3826,43 @@
       "stock_code": "8210",
       "cb_price": 134.0,
       "conversion_price": 975.6,
-      "stock_price": 886.0,
+      "stock_price": 874.0,
       "stock_price_source": "official",
-      "conversion_value": 90.8159,
-      "premium_rate": 47.5512
+      "conversion_value": 89.5859,
+      "premium_rate": 49.5771
     },
     {
       "bond_code": "82221",
       "bond_name": "寶一一",
       "stock_code": "8222",
-      "cb_price": 109.85,
+      "cb_price": 109.7,
       "conversion_price": 42.3,
-      "stock_price": 34.7,
+      "stock_price": 34.25,
       "stock_price_source": "official",
-      "conversion_value": 82.0331,
-      "premium_rate": 33.9094
+      "conversion_value": 80.9693,
+      "premium_rate": 35.4835
     },
     {
       "bond_code": "82711",
       "bond_name": "宇瞻一",
       "stock_code": "8271",
-      "cb_price": 131.5,
+      "cb_price": 131.0,
       "conversion_price": 161.4,
-      "stock_price": 202.0,
+      "stock_price": 199.5,
       "stock_price_source": "official",
-      "conversion_value": 125.1549,
-      "premium_rate": 5.0698
+      "conversion_value": 123.6059,
+      "premium_rate": 5.982
     },
     {
       "bond_code": "82993",
       "bond_name": "群聯三",
       "stock_code": "8299",
-      "cb_price": 126.75,
+      "cb_price": 126.8,
       "conversion_price": 2468.8,
-      "stock_price": 1935.0,
+      "stock_price": 1920.0,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 78.3782,
-      "premium_rate": 61.716
+      "conversion_value": 77.7706,
+      "premium_rate": 63.0437
     },
     {
       "bond_code": "83742",
@@ -3870,10 +3870,10 @@
       "stock_code": "8374",
       "cb_price": 103.8,
       "conversion_price": 132.2,
-      "stock_price": 77.2,
+      "stock_price": 76.0,
       "stock_price_source": "official",
-      "conversion_value": 58.3964,
-      "premium_rate": 77.7508
+      "conversion_value": 57.4887,
+      "premium_rate": 80.5574
     },
     {
       "bond_code": "84041",
@@ -3881,21 +3881,21 @@
       "stock_code": "8404",
       "cb_price": 99.5,
       "conversion_price": 26.0,
-      "stock_price": 13.9,
+      "stock_price": 13.65,
       "stock_price_source": "official",
-      "conversion_value": 53.4615,
-      "premium_rate": 86.1151
+      "conversion_value": 52.5,
+      "premium_rate": 89.5238
     },
     {
       "bond_code": "84113",
       "bond_name": "福貞三KY",
       "stock_code": "8411",
-      "cb_price": 101.9,
+      "cb_price": 102.0,
       "conversion_price": 13.3,
-      "stock_price": 12.65,
+      "stock_price": 12.75,
       "stock_price_source": "official",
-      "conversion_value": 95.1128,
-      "premium_rate": 7.136
+      "conversion_value": 95.8647,
+      "premium_rate": 6.4
     },
     {
       "bond_code": "84221",
@@ -3903,10 +3903,10 @@
       "stock_code": "8422",
       "cb_price": 209.0,
       "conversion_price": 14.0,
-      "stock_price": 26.1,
+      "stock_price": 25.95,
       "stock_price_source": "official",
-      "conversion_value": 186.4286,
-      "premium_rate": 12.1073
+      "conversion_value": 185.3571,
+      "premium_rate": 12.7553
     },
     {
       "bond_code": "84222",
@@ -3914,21 +3914,21 @@
       "stock_code": "8422",
       "cb_price": 145.1,
       "conversion_price": 18.2,
-      "stock_price": 26.1,
+      "stock_price": 25.95,
       "stock_price_source": "official",
-      "conversion_value": 143.4066,
-      "premium_rate": 1.1808
+      "conversion_value": 142.5824,
+      "premium_rate": 1.7657
     },
     {
       "bond_code": "84312",
       "bond_name": "匯鑽科二",
       "stock_code": "8431",
-      "cb_price": 103.0,
+      "cb_price": 101.05,
       "conversion_price": 68.0,
-      "stock_price": 62.5,
+      "stock_price": 60.1,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 91.9118,
-      "premium_rate": 12.064
+      "conversion_value": 88.3824,
+      "premium_rate": 14.3328
     },
     {
       "bond_code": "84332",
@@ -3958,10 +3958,10 @@
       "stock_code": "8438",
       "cb_price": 92.6,
       "conversion_price": 90.8,
-      "stock_price": 67.7,
+      "stock_price": 67.2,
       "stock_price_source": "official",
-      "conversion_value": 74.5595,
-      "premium_rate": 24.1962
+      "conversion_value": 74.0088,
+      "premium_rate": 25.1202
     },
     {
       "bond_code": "84422",
@@ -3969,10 +3969,10 @@
       "stock_code": "8442",
       "cb_price": 99.5,
       "conversion_price": 68.9,
-      "stock_price": 45.45,
+      "stock_price": 45.65,
       "stock_price_source": "official",
-      "conversion_value": 65.9652,
-      "premium_rate": 50.8372
+      "conversion_value": 66.2554,
+      "premium_rate": 50.1763
     },
     {
       "bond_code": "84423",
@@ -3980,21 +3980,21 @@
       "stock_code": "8442",
       "cb_price": 116.5,
       "conversion_price": 39.6,
-      "stock_price": 45.45,
+      "stock_price": 45.65,
       "stock_price_source": "official",
-      "conversion_value": 114.7727,
-      "premium_rate": 1.505
+      "conversion_value": 115.2778,
+      "premium_rate": 1.0602
     },
     {
       "bond_code": "84624",
       "bond_name": "柏文四",
       "stock_code": "8462",
-      "cb_price": 120.0,
+      "cb_price": 119.95,
       "conversion_price": 144.3,
-      "stock_price": 162.0,
+      "stock_price": 160.5,
       "stock_price_source": "official",
-      "conversion_value": 112.2661,
-      "premium_rate": 6.8889
+      "conversion_value": 111.2266,
+      "premium_rate": 7.8429
     },
     {
       "bond_code": "84672",
@@ -4002,10 +4002,10 @@
       "stock_code": "8467",
       "cb_price": 104.05,
       "conversion_price": 191.4,
-      "stock_price": 83.2,
+      "stock_price": 84.3,
       "stock_price_source": "official",
-      "conversion_value": 43.4692,
-      "premium_rate": 139.365
+      "conversion_value": 44.0439,
+      "premium_rate": 136.2416
     },
     {
       "bond_code": "84673",
@@ -4013,21 +4013,21 @@
       "stock_code": "8467",
       "cb_price": 100.0,
       "conversion_price": 233.4,
-      "stock_price": 83.2,
+      "stock_price": 84.3,
       "stock_price_source": "official",
-      "conversion_value": 35.647,
-      "premium_rate": 180.5288
+      "conversion_value": 36.1183,
+      "premium_rate": 176.8683
     },
     {
       "bond_code": "84732",
       "bond_name": "山林水二",
       "stock_code": "8473",
-      "cb_price": 126.0,
+      "cb_price": 124.35,
       "conversion_price": 30.3,
-      "stock_price": 38.4,
+      "stock_price": 37.85,
       "stock_price_source": "official",
-      "conversion_value": 126.7327,
-      "premium_rate": -0.5781
+      "conversion_value": 124.9175,
+      "premium_rate": -0.4543
     },
     {
       "bond_code": "84762",
@@ -4035,21 +4035,21 @@
       "stock_code": "8476",
       "cb_price": 99.95,
       "conversion_price": 19.5,
-      "stock_price": 19.7,
+      "stock_price": 19.5,
       "stock_price_source": "official",
-      "conversion_value": 101.0256,
-      "premium_rate": -1.0647
+      "conversion_value": 100.0,
+      "premium_rate": -0.05
     },
     {
       "bond_code": "84781",
       "bond_name": "東哥遊艇一",
       "stock_code": "8478",
-      "cb_price": 95.4,
+      "cb_price": 95.55,
       "conversion_price": 377.7,
-      "stock_price": 142.0,
+      "stock_price": 141.5,
       "stock_price_source": "official",
-      "conversion_value": 37.596,
-      "premium_rate": 153.7506
+      "conversion_value": 37.4636,
+      "premium_rate": 155.0476
     },
     {
       "bond_code": "84881",
@@ -4057,10 +4057,10 @@
       "stock_code": "8488",
       "cb_price": 99.5,
       "conversion_price": 18.4,
-      "stock_price": 9.94,
+      "stock_price": 9.86,
       "stock_price_source": "official",
-      "conversion_value": 54.0217,
-      "premium_rate": 84.1851
+      "conversion_value": 53.587,
+      "premium_rate": 85.6795
     },
     {
       "bond_code": "84891",
@@ -4068,10 +4068,10 @@
       "stock_code": "8489",
       "cb_price": 115.0,
       "conversion_price": 27.9,
-      "stock_price": 21.75,
+      "stock_price": 21.6,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 77.957,
-      "premium_rate": 47.5172
+      "conversion_value": 77.4194,
+      "premium_rate": 48.5417
     },
     {
       "bond_code": "89277",
@@ -4079,10 +4079,10 @@
       "stock_code": "8927",
       "cb_price": 100.0,
       "conversion_price": 50.01,
-      "stock_price": 19.1,
+      "stock_price": 18.8,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 38.1924,
-      "premium_rate": 161.8325
+      "conversion_value": 37.5925,
+      "premium_rate": 166.0106
     },
     {
       "bond_code": "89278",
@@ -4090,32 +4090,32 @@
       "stock_code": "8927",
       "cb_price": 101.55,
       "conversion_price": 46.67,
-      "stock_price": 19.1,
+      "stock_price": 18.8,
       "stock_price_source": "cyclesinvest_fallback",
-      "conversion_value": 40.9256,
-      "premium_rate": 148.1329
+      "conversion_value": 40.2828,
+      "premium_rate": 152.0925
     },
     {
       "bond_code": "89365",
       "bond_name": "國統五",
       "stock_code": "8936",
-      "cb_price": 111.6,
+      "cb_price": 111.55,
       "conversion_price": 55.0,
       "stock_price": 51.0,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 92.7273,
-      "premium_rate": 20.3529
+      "premium_rate": 20.299
     },
     {
       "bond_code": "89366",
       "bond_name": "國統六",
       "stock_code": "8936",
-      "cb_price": 105.1,
+      "cb_price": 105.0,
       "conversion_price": 53.8,
       "stock_price": 51.0,
       "stock_price_source": "cyclesinvest_fallback",
       "conversion_value": 94.7955,
-      "premium_rate": 10.8702
+      "premium_rate": 10.7647
     },
     {
       "bond_code": "98026",
@@ -4123,65 +4123,65 @@
       "stock_code": "9802",
       "cb_price": 100.95,
       "conversion_price": 99.6,
-      "stock_price": 64.0,
+      "stock_price": 63.8,
       "stock_price_source": "official",
-      "conversion_value": 64.257,
-      "premium_rate": 57.1034
+      "conversion_value": 64.0562,
+      "premium_rate": 57.5959
     },
     {
       "bond_code": "99063",
       "bond_name": "欣巴巴三",
       "stock_code": "9906",
-      "cb_price": 98.05,
+      "cb_price": 98.1,
       "conversion_price": 100.7,
-      "stock_price": 38.55,
+      "stock_price": 36.95,
       "stock_price_source": "official",
-      "conversion_value": 38.282,
-      "premium_rate": 156.1254
+      "conversion_value": 36.6931,
+      "premium_rate": 167.3524
     },
     {
       "bond_code": "99332",
       "bond_name": "中鼎二",
       "stock_code": "9933",
-      "cb_price": 101.6,
+      "cb_price": 101.9,
       "conversion_price": 45.2,
-      "stock_price": 41.2,
+      "stock_price": 41.9,
       "stock_price_source": "official",
-      "conversion_value": 91.1504,
-      "premium_rate": 11.4641
+      "conversion_value": 92.6991,
+      "premium_rate": 9.9255
     },
     {
       "bond_code": "99353",
       "bond_name": "慶豐富三",
       "stock_code": "9935",
-      "cb_price": 99.45,
+      "cb_price": 99.5,
       "conversion_price": 30.2,
-      "stock_price": 17.85,
+      "stock_price": 17.9,
       "stock_price_source": "official",
-      "conversion_value": 59.106,
-      "premium_rate": 68.2571
+      "conversion_value": 59.2715,
+      "premium_rate": 67.8715
     },
     {
       "bond_code": "99392",
       "bond_name": "宏全二",
       "stock_code": "9939",
-      "cb_price": 106.8,
+      "cb_price": 106.45,
       "conversion_price": 153.7,
-      "stock_price": 126.0,
+      "stock_price": 125.5,
       "stock_price_source": "official",
-      "conversion_value": 81.9779,
-      "premium_rate": 30.279
+      "conversion_value": 81.6526,
+      "premium_rate": 30.3694
     },
     {
       "bond_code": "99412",
       "bond_name": "裕融二",
       "stock_code": "9941",
-      "cb_price": 99.2,
+      "cb_price": 99.1,
       "conversion_price": 166.8,
-      "stock_price": 81.6,
+      "stock_price": 81.0,
       "stock_price_source": "official",
-      "conversion_value": 48.9209,
-      "premium_rate": 102.7765
+      "conversion_value": 48.5612,
+      "premium_rate": 104.0726
     },
     {
       "bond_code": "99587",
@@ -4189,10 +4189,10 @@
       "stock_code": "9958",
       "cb_price": 99.65,
       "conversion_price": 230.5,
-      "stock_price": 91.1,
+      "stock_price": 90.5,
       "stock_price_source": "official",
-      "conversion_value": 39.5228,
-      "premium_rate": 152.1331
+      "conversion_value": 39.2625,
+      "premium_rate": 153.8047
     },
     {
       "bond_code": "99588",
@@ -4200,10 +4200,10 @@
       "stock_code": "9958",
       "cb_price": 99.4,
       "conversion_price": 221.9,
-      "stock_price": 91.1,
+      "stock_price": 90.5,
       "stock_price_source": "official",
-      "conversion_value": 41.0545,
-      "premium_rate": 142.117
+      "conversion_value": 40.7841,
+      "premium_rate": 143.7222
     }
   ]
 }
