@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>台股可轉債看盤 | CB Board</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="echarts.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <style>
   :root{
@@ -101,7 +101,8 @@
   section.panel .desc{
     font-size:13px; color:var(--text-dim); margin:0 0 20px;
   }
-  .chart-wrap{ position:relative; height:320px; }
+  .chart-wrap{ position:relative; height:380px; }
+  .chart-wrap > div{ width:100%; height:100%; }
 
   .dist-bars{ display:flex; flex-direction:column; gap:10px; margin-top:8px; }
   .dist-row{ display:grid; grid-template-columns: 90px 1fr 50px 60px; align-items:center; gap:12px; }
@@ -240,8 +241,8 @@ function renderCards(d){
     <div class="grid-cards">${html}</div>
     <section class="panel">
       <h2>歷史趨勢</h2>
-      <p class="desc">平均CB價、平均轉換價值、平均轉換溢價率　隨時間變化</p>
-      <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+      <p class="desc">平均CB價、平均轉換價值、平均轉換溢價率　隨時間變化（完整歷史，可用下方拉 bar 選擇區間）</p>
+      <div class="chart-wrap"><div id="trendChart"></div></div>
     </section>
     <section class="panel">
       <h2>本期價格區間分布</h2>
@@ -250,88 +251,89 @@ function renderCards(d){
     </section>
     <section class="panel">
       <h2>價格區間分布趨勢</h2>
-      <p class="desc">各價格區間標的數量　隨時間變化</p>
-      <div class="chart-wrap"><canvas id="distTrendChart"></canvas></div>
+      <p class="desc">各價格區間標的數量　隨時間變化（完整歷史，可用下方拉 bar 選擇區間）</p>
+      <div class="chart-wrap"><div id="distTrendChart"></div></div>
     </section>
   `;
 }
 
+// ===== ECharts 共用設定（深色主題，貼近原 Chart.js 外觀）=====
+const EC_FONT = { color: "#6f93a0", fontFamily: "IBM Plex Mono", fontSize: 10 };
+const EC_GRID_LINE = { color: "#142a37" };
+const EC_TOOLTIP = {
+  backgroundColor: "#142a37",
+  borderColor: "#1f3a48",
+  borderWidth: 1,
+  textStyle: { color: "#e0f0ec", fontFamily: "IBM Plex Sans", fontSize: 12 },
+};
+const EC_DATAZOOM = [
+  { type: "inside" },
+  {
+    type: "slider", height: 20, bottom: 8,
+    borderColor: "#1f3a48",
+    backgroundColor: "#0a141c",
+    fillerColor: "rgba(45,212,191,0.12)",
+    handleStyle: { color: "#2dd4bf", borderColor: "#2dd4bf" },
+    moveHandleStyle: { color: "#2dd4bf" },
+    dataBackground: { lineStyle: { color: "#1f3a48" }, areaStyle: { color: "#0f1f29" } },
+    selectedDataBackground: { lineStyle: { color: "#2dd4bf" }, areaStyle: { color: "rgba(45,212,191,0.15)" } },
+    textStyle: { color: "#6f93a0", fontSize: 9 },
+  },
+];
+
+function makeTrendChart(canvasId, labels, yAxisList, seriesList){
+  const chart = echarts.init(document.getElementById(canvasId));
+  chart.setOption({
+    backgroundColor: "transparent",
+    animationDuration: 300,
+    legend: { top: 0, type: "scroll", textStyle: { color: "#6f93a0", fontFamily: "IBM Plex Mono", fontSize: 11 } },
+    tooltip: Object.assign({ trigger: "axis", axisPointer: { type: "cross", crossStyle: { color: "#1f3a48" } } }, EC_TOOLTIP),
+    grid: { left: 56, right: 56, top: 36, bottom: 56 },
+    xAxis: {
+      type: "category", data: labels, boundaryGap: false,
+      axisLabel: Object.assign({}, EC_FONT, { hideOverlap: true }),
+      axisLine: { lineStyle: { color: "#1f3a48" } },
+    },
+    yAxis: yAxisList,
+    dataZoom: EC_DATAZOOM,
+    series: seriesList,
+  });
+  window.addEventListener("resize", () => chart.resize());
+  return chart;
+}
+
 function renderTrendChart(rows){
   const labels = rows.map(r => r.date);
-  const ctx = document.getElementById("trendChart").getContext("2d");
-
-  new Chart(ctx, {
-    type: "line",
-    data: {
-      labels,
-      datasets: [
-        {
-          label: "平均CB價",
-          data: rows.map(r => r.avg_cb_price),
-          borderColor: "#e0f0ec",
-          backgroundColor: "transparent",
-          yAxisID: "yPrice",
-          tension: 0.25,
-          pointRadius: 0,
-          borderWidth: 2,
-        },
-        {
-          label: "平均轉換價值",
-          data: rows.map(r => r.avg_conversion_value),
-          borderColor: "#2dd4bf",
-          backgroundColor: "transparent",
-          yAxisID: "yPrice",
-          tension: 0.25,
-          pointRadius: 0,
-          borderWidth: 2,
-        },
-        {
-          label: "平均轉換溢價率(%)",
-          data: rows.map(r => r.avg_premium_rate),
-          borderColor: "#5fd97a",
-          backgroundColor: "transparent",
-          yAxisID: "yPct",
-          tension: 0.25,
-          pointRadius: 0,
-          borderWidth: 2,
-          borderDash: [4,3],
-        },
-      ]
+  const yAxisList = [
+    {
+      scale: true, position: "left",
+      axisLabel: Object.assign({}, EC_FONT),
+      splitLine: { lineStyle: EC_GRID_LINE },
     },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: { mode: "index", intersect: false },
-      plugins: {
-        legend: {
-          labels: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 11 } }
-        },
-        tooltip: {
-          backgroundColor: "#142a37",
-          borderColor: "#1f3a48",
-          borderWidth: 1,
-          titleColor: "#e0f0ec",
-          bodyColor: "#e0f0ec",
-        }
-      },
-      scales: {
-        x: {
-          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
-          grid: { color: "#142a37" }
-        },
-        yPrice: {
-          position: "left",
-          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 } },
-          grid: { color: "#142a37" }
-        },
-        yPct: {
-          position: "right",
-          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 } },
-          grid: { drawOnChartArea: false }
-        }
-      }
-    }
-  });
+    {
+      scale: true, position: "right",
+      axisLabel: Object.assign({}, EC_FONT),
+      splitLine: { show: false },
+    },
+  ];
+  const seriesList = [
+    {
+      name: "平均CB價", type: "line", smooth: true, showSymbol: false,
+      lineStyle: { width: 2, color: "#e0f0ec" },
+      data: rows.map(r => r.avg_cb_price),
+    },
+    {
+      name: "平均轉換價值", type: "line", smooth: true, showSymbol: false,
+      lineStyle: { width: 2, color: "#2dd4bf" },
+      data: rows.map(r => r.avg_conversion_value),
+    },
+    {
+      name: "平均轉換溢價率(%)", type: "line", yAxisIndex: 1, smooth: true, showSymbol: false,
+      lineStyle: { width: 2, color: "#5fd97a", type: "dashed" },
+      data: rows.map(r => r.avg_premium_rate),
+    },
+  ];
+  makeTrendChart("trendChart", labels, yAxisList, seriesList);
 }
 
 function renderDistribution(d){
@@ -358,52 +360,23 @@ const BIN_COLORS = ["#38bdf8", "#2dd4bf", "#818cf8", "#c084fc", "#f472b6", "#fb7
 
 function renderDistributionTrendChart(rows){
   const labels = rows.map(r => r.date);
-  const ctx = document.getElementById("distTrendChart").getContext("2d");
-
-  const datasets = PRICE_BINS.map((b, i) => ({
-    label: b.label,
-    data: rows.map(r => Number(r["price_bin_" + b.key]) || 0),
-    borderColor: BIN_COLORS[i],
-    backgroundColor: "transparent",
-    fill: false,
-    tension: 0.25,
-    pointRadius: 2,
-    pointHoverRadius: 4,
-    borderWidth: 2,
-  }));
-
-  new Chart(ctx, {
+  const yAxisList = [
+    {
+      beginAtZero: true, scale: true,
+      axisLabel: Object.assign({}, EC_FONT),
+      splitLine: { lineStyle: EC_GRID_LINE },
+    },
+  ];
+  const seriesList = PRICE_BINS.map((b, i) => ({
+    name: b.label,
     type: "line",
-    data: { labels, datasets },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: { mode: "index", intersect: false },
-      plugins: {
-        legend: {
-          labels: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 11 } }
-        },
-        tooltip: {
-          backgroundColor: "#142a37",
-          borderColor: "#1f3a48",
-          borderWidth: 1,
-          titleColor: "#e0f0ec",
-          bodyColor: "#e0f0ec",
-        }
-      },
-      scales: {
-        x: {
-          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10 },
-          grid: { color: "#142a37" }
-        },
-        y: {
-          beginAtZero: true,
-          ticks: { color: "#6f93a0", font: { family: "IBM Plex Mono", size: 10 } },
-          grid: { color: "#142a37" }
-        }
-      }
-    }
-  });
+    smooth: true,
+    showSymbol: false,
+    lineStyle: { width: 2, color: BIN_COLORS[i] },
+    itemStyle: { color: BIN_COLORS[i] },
+    data: rows.map(r => Number(r["price_bin_" + b.key]) || 0),
+  }));
+  makeTrendChart("distTrendChart", labels, yAxisList, seriesList);
 }
 
 loadData();

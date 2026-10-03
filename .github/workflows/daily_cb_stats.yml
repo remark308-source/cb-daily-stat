@@ -6,6 +6,12 @@ on:
     # 資料來源（cyclesinvest.com）為每日更新，故排程為週一到週五執行
     - cron: '0 12 * * 1-5'
   workflow_dispatch: {}  # 允許手動觸發，方便測試
+  push:
+    # 頁面/工作流本身有變動時也重新部署 Pages（資料照常抓取，休市日會自動略過存檔）
+    paths:
+      - 'index.html'
+      - 'echarts.min.js'
+      - '.github/workflows/daily_cb_stats.yml'
 
 permissions:
   contents: write
